@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Xin chào",
+        "Bạn khỏe không?",
+        "Có ai ở đó không?",
+        "Hello",
+        "Chào buổi sáng"
+      ],
+      "responses": [
+        "Xin chào, cảm ơn bạn đã ghé thăm",
+        "Rất vui được gặp bạn",
+        "Xin chào, bạn cần giúp gì không?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "Cửa hàng mở cửa vào giờ nào?",
+        "Giờ làm việc của bạn là gì?",
+        "Khi nào bạn mở cửa?"
+      ],
+      "responses": [
+        "Chúng tôi mở cửa từ 9 giờ sáng đến 9 giờ tối mỗi ngày",
+        "Giờ làm việc của chúng tôi là từ 9 giờ sáng đến 9 giờ tối mỗi ngày"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "Các loại điện thoại thịnh hành hiện nay là gì?",
+        "Điện thoại nào hiện đang được mua nhiều?",
+        "Hãy giới thiệu vài mẫu điện thoại đang hot"
+      ],
+      "responses": [
+        "Bạn đã sẵn sàng để đặt hàng chưa? Nhà hàng của chúng tôi có pizza, pasta rau củ, bò bít tết. Đây là các món đặc biệt của nhà hàng chúng tôi",
+        "Tôi có thể giúp gì cho bạn? Đây là menu. Hãy hỏi tôi nếu bạn có bất kỳ câu hỏi nào."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Bạn nhận thẻ tín dụng không?",
+        "Bạn có chấp nhận thẻ Mastercard không?",
+        "Chỉ nhận thanh toán bằng tiền mặt à?"
+      ],
+      "responses": [
+        "Chúng tôi chấp nhận thẻ VISA, Mastercard và AMEX",
+        "Chúng tôi chấp nhận hầu hết các loại thẻ tín dụng lớn"
+      ]
+    },
+    {
+      "tag": "opentoday",
+      "patterns": [
+        "Hôm nay bạn có mở cửa không?",
+        "Hôm nay bạn mở cửa vào lúc nào?",
+        "Giờ làm việc của bạn hôm nay là gì?"
+      ],
+      "responses": [
+        "Chúng tôi mở cửa từ 9 giờ sáng đến 9 giờ tối mỗi ngày",
+        "Giờ làm việc của chúng tôi là từ 9 giờ sáng đến 9 giờ tối mỗi ngày"
+      ]
+    },
+    {
+      "tag": "completeorder",
+      "patterns": [
+        "Vậy là xong",
+        "Vâng, chúng tôi sẽ gọi một phần gà với rau, và một phần pasta rau củ",
+        "Chỉ cần một chút nước thôi"
+      ],
+      "responses": ["Cảm ơn bạn đã đặt hàng, vui lòng đợi một chút."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Tạm biệt", "Hẹn gặp lại bạn sau", "Tạm biệt"],
+      "responses": [
+        "Hẹn gặp lại bạn sau, cảm ơn bạn đã đến",
+        "Chúc bạn một ngày tốt lành",
+        "Tạm biệt! Hẹn gặp lại sớm."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Cảm ơn", "Cảm ơn bạn", "Thật là hữu ích"],
+      "responses": ["Rất vui được giúp đỡ!", "Bất cứ lúc nào!", "Hân hạnh"]
+    },
+    {
+      "tag": "iphone",
+      "patterns": ["Những mẫu iphone đang hot hiện nay", "", ""],
+      "responses": ["", "", ""]
+    },
+    {
+      "tag": "samsung",
+      "patterns": ["Những mẫu samsung đang hot hiện nay", "", ""],
+      "responses": ["", "", ""]
+    },
+    {
+      "tag": "xiaomi",
+      "patterns": ["Những mẫu xiaomi đang hot hiện nay", "", ""],
+      "responses": ["", "", ""]
+    },
+    {
+      "tag": "oppo",
+      "patterns": ["Những mẫu oppo đang hot hiện nay", "", ""],
+      "responses": ["", "", ""]
+    }
+  ]
+}

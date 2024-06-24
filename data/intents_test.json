@@ -1,0 +1,1056 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Xin chào",
+        "Bạn khỏe không?",
+        "Có ai ở đó không?",
+        "Hello",
+        "Chào buổi sáng",
+        "Chào bạn",
+        "Hi",
+        "Chào anh/chị",
+        "Chào buổi chiều",
+        "Chào buổi tối"
+      ],
+      "responses": [
+        "Xin chào, cảm ơn bạn đã ghé thăm",
+        "Rất vui được gặp bạn",
+        "Xin chào, bạn cần giúp gì không?",
+        "Chào bạn, mình có thể giúp gì cho bạn?",
+        "Hello! Mình có thể hỗ trợ bạn điều gì?",
+        "Chào bạn! Mình có thể giúp gì cho bạn?",
+        "Chào bạn! Bạn cần hỗ trợ gì không?",
+        "Chào bạn! Có gì mình có thể giúp bạn không?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "Cửa hàng mở cửa vào giờ nào?",
+        "Giờ làm việc của bạn là gì?",
+        "Khi nào bạn mở cửa?",
+        "Bạn mở cửa lúc mấy giờ?",
+        "Thời gian hoạt động của cửa hàng là khi nào?",
+        "Cửa hàng hoạt động vào giờ nào?",
+        "Giờ mở cửa như thế nào?",
+        "Thời gian mở cửa cửa hàng là khi nào?"
+      ],
+      "responses": [
+        "Chúng tôi mở cửa từ 9 giờ sáng đến 9 giờ tối mỗi ngày",
+        "Giờ làm việc của chúng tôi là từ 9 giờ sáng đến 9 giờ tối mỗi ngày",
+        "Cửa hàng hoạt động từ 9 giờ sáng đến 9 giờ tối mỗi ngày",
+        "Thời gian mở cửa là từ 9 giờ sáng đến 9 giờ tối hàng ngày",
+        "Chúng tôi hoạt động từ 9 giờ sáng đến 9 giờ tối tất cả các ngày trong tuần"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "Có những mẫu điện thoại mới nào đang được bán ở cửa hàng",
+        "Điện thoại nào mới ra mắt?",
+        "Cửa hàng có những sản phẩm mới nào?",
+        "Mẫu điện thoại mới nhất là gì?",
+        "Có điện thoại nào vừa ra mắt không?",
+        "Những mẫu điện thoại mới nào có sẵn?",
+        "Các mẫu điện thoại mới hiện có là gì?",
+        "Có sản phẩm mới nào đang bán không?"
+      ],
+      "responses": [
+        "Cửa hàng chúng tôi đang có các mẫu sản phẩm mới như: \nIPhone 15 Pro Max 512GB \nIPhone 15 Pro 1TB \nOppo Reno 11F (5G) 8GB 256GB \nOppo Reno 10 Pro (5G) 12GB 256GB \nSamsung Galaxy Z Fold5 12GB 256GB \nSamsung Galaxy Z Flip5 8GB 512GB \nSamsung Galaxy S24 Ultra (5G) 12GB 256GB \nXiaomi 14 (5G) 12GB 256GB \nXiaomi Redmi Note 13 Pro Plus (5G) 12GB 512GB Box \nNếu bạn quan tâm về mẫu điện thoại nào thì hãy hỏi tôi để tôi có thể tư vấn một cách chi tiết nhé",
+        "Những sản phẩm mới nhất đang bán chạy như: \nIPhone 15 Pro Max 512GB \nIPhone 15 Pro 1TB \nOppo Reno 11F (5G) 8GB 256GB \nOppo Reno 10 Pro (5G) 12GB 256GB \nSamsung Galaxy Z Fold5 12GB 256GB \nSamsung Galaxy Z Flip5 8GB 512GB \nSamsung Galaxy S24 Ultra (5G) 12GB 256GB \nXiaomi 14 (5G) 12GB 256GB \nXiaomi Redmi Note 13 Pro Plus (5G) 12GB 512GB Box \nNếu bạn quan tâm về mẫu điện thoại nào thì hãy hỏi tôi để tôi có thể tư vấn một cách chi tiết nhé",
+        "Chúng tôi có các mẫu điện thoại mới như: \nIPhone 15 Pro Max 512GB \nIPhone 15 Pro 1TB \nOppo Reno 11F (5G) 8GB 256GB \nOppo Reno 10 Pro (5G) 12GB 256GB \nSamsung Galaxy Z Fold5 12GB 256GB \nSamsung Galaxy Z Flip5 8GB 512GB \nSamsung Galaxy S24 Ultra (5G) 12GB 256GB \nXiaomi 14 (5G) 12GB 256GB \nXiaomi Redmi Note 13 Pro Plus (5G) 12GB 512GB Box \nNếu bạn quan tâm về mẫu điện thoại nào thì hãy hỏi tôi để tôi có thể tư vấn một cách chi tiết nhé",
+        "Các sản phẩm mới vừa ra mắt bao gồm: \nIPhone 15 Pro Max 512GB \nIPhone 15 Pro 1TB \nOppo Reno 11F (5G) 8GB 256GB \nOppo Reno 10 Pro (5G) 12GB 256GB \nSamsung Galaxy Z Fold5 12GB 256GB \nSamsung Galaxy Z Flip5 8GB 512GB \nSamsung Galaxy S24 Ultra (5G) 12GB 256GB \nXiaomi 14 (5G) 12GB 256GB \nXiaomi Redmi Note 13 Pro Plus (5G) 12GB 512GB Box \nNếu bạn quan tâm về mẫu điện thoại nào thì hãy hỏi tôi để tôi có thể tư vấn một cách chi tiết nhé"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Bạn nhận thẻ tín dụng không?",
+        "Chỉ nhận thanh toán bằng tiền mặt à?",
+        "Có thể thanh toán bằng thẻ tín dụng không?",
+        "Cửa hàng có chấp nhận thẻ không?",
+        "Tôi có thể trả bằng thẻ không?",
+        "Bạn có nhận thanh toán thẻ không?",
+        "Có hỗ trợ thanh toán bằng thẻ tín dụng không?",
+        "Thanh toán bằng thẻ có được không?"
+      ],
+      "responses": [
+        "Chúng tôi chấp nhận thẻ PayPal hoặc thanh toán tiền mặt",
+        "Bạn có thể thanh toán bằng thẻ Paypal hoặc tiền mặt",
+        "Chúng tôi nhận thanh toán qua PayPal hoặc bằng tiền mặt",
+        "Cửa hàng chấp nhận thanh toán bằng thẻ Paypal và tiền mặt",
+        "Bạn có thể sử dụng thẻ Paypal hoặc tiền mặt để thanh toán"
+      ]
+    },
+    {
+      "tag": "opentoday",
+      "patterns": [
+        "Hôm nay bạn có mở cửa không?",
+        "Hôm nay bạn mở cửa vào lúc nào?",
+        "Giờ làm việc của bạn hôm nay là gì?",
+        "Cửa hàng hôm nay có mở không?",
+        "Giờ mở cửa hôm nay như thế nào?",
+        "Hôm nay cửa hàng mở cửa không?",
+        "Thời gian mở cửa hôm nay là khi nào?",
+        "Cửa hàng hôm nay mở lúc mấy giờ?"
+      ],
+      "responses": [
+        "Chúng tôi mở cửa từ 9 giờ sáng đến 9 giờ tối mỗi ngày",
+        "Giờ làm việc của chúng tôi là từ 9 giờ sáng đến 9 giờ tối mỗi ngày",
+        "Hôm nay chúng tôi mở cửa từ 9 giờ sáng đến 9 giờ tối",
+        "Cửa hàng mở cửa từ 9 giờ sáng đến 9 giờ tối hàng ngày",
+        "Hôm nay chúng tôi hoạt động từ 9 giờ sáng đến 9 giờ tối"
+      ]
+    },
+    {
+      "tag": "completeorder",
+      "patterns": [
+        "Vậy cho tôi đặt hàng nhé",
+        "Tôi muốn đặt hàng",
+        "Làm sao để đặt hàng?",
+        "Cho tôi đặt một sản phẩm",
+        "Làm thế nào để mua hàng?",
+        "Tôi có thể đặt hàng bằng cách nào?",
+        "Cách thức đặt hàng như thế nào?",
+        "Hướng dẫn tôi cách đặt hàng"
+      ],
+      "responses": [
+        "Bạn vui lòng chọn sản phẩm cần mua và đặt hàng giúp mình nhé!",
+        "Vui lòng chọn sản phẩm và đặt hàng trên hệ thống của chúng tôi.",
+        "Bạn có thể chọn sản phẩm và tiến hành đặt hàng trên trang web của chúng tôi.",
+        "Hãy chọn sản phẩm và làm theo hướng dẫn để đặt hàng.",
+        "Bạn vui lòng chọn sản phẩm và hoàn tất quy trình đặt hàng trên trang web."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Tạm biệt",
+        "Hẹn gặp lại bạn sau",
+        "Tạm biệt",
+        "Chào tạm biệt",
+        "Hẹn gặp lại",
+        "Tạm biệt nhé",
+        "Bye bye",
+        "Hẹn gặp lại bạn"
+      ],
+      "responses": [
+        "Hẹn gặp lại bạn sau, cảm ơn bạn đã đến",
+        "Chúc bạn một ngày tốt lành",
+        "Tạm biệt! Hẹn gặp lại sớm.",
+        "Chào tạm biệt! Chúc bạn một ngày tốt lành.",
+        "Hẹn gặp lại bạn! Cảm ơn bạn đã ghé thăm.",
+        "Tạm biệt! Mong sớm gặp lại bạn.",
+        "Chào bạn! Hẹn gặp lại vào lần sau.",
+        "Tạm biệt! Chúc bạn có một ngày tuyệt vời."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Cảm ơn",
+        "Cảm ơn bạn",
+        "Thật là hữu ích",
+        "Cảm ơn rất nhiều",
+        "Mình rất cảm kích",
+        "Rất biết ơn",
+        "Cảm ơn sự giúp đỡ của bạn",
+        "Cảm ơn nhé"
+      ],
+      "responses": [
+        "Rất vui được giúp đỡ!",
+        "Bất cứ lúc nào!",
+        "Hân hạnh",
+        "Rất vui vì có thể giúp bạn!",
+        "Cảm ơn bạn! Mình luôn sẵn sàng hỗ trợ.",
+        "Không có gì, mình rất vui khi có thể giúp bạn.",
+        "Rất hân hạnh được giúp đỡ bạn!",
+        "Cảm ơn bạn! Nếu cần gì thêm, cứ nhắn mình nhé."
+      ]
+    },
+
+    {
+      "tag": "iphone_1",
+      "patterns": [
+        "Thông tin về iPhone 15 Pro Max 256GB",
+        "iPhone 15 Pro Max 256GB",
+        "Cho tôi biết thông tin về iPhone 15 Pro Max 256GB"
+      ],
+      "responses": [
+        "iPhone 15 Pro Max 256GB có giá: 29,190,000đ.\niPhone 15 Pro Max 256GB là phiên bản cao cấp nhất của dòng iPhone 15, ra mắt năm 2023.\nMáy sở hữu màn hình Super Retina XDR 6.7 inch với công nghệ ProMotion, chip A17 Bionic mạnh mẽ, và cụm camera cải tiến cho khả năng chụp ảnh xuất sắc.\nThiết kế sang trọng với khung viền titan và nhiều màu sắc mới, iPhone 15 Pro Max cũng hỗ trợ kết nối 5G và sạc nhanh không dây MagSafe."
+      ]
+    },
+    {
+      "tag": "iphone_2",
+      "patterns": [
+        "Thông tin về iPhone 15 Pro 128GB",
+        "iPhone 15 Pro 128GB",
+        "Cho tôi biết thông tin về iPhone 15 Pro 128GB"
+      ],
+      "responses": [
+        "iPhone 15 Pro 128GB có giá: 24,490,000đ.\niPhone 15 Pro - Thiết kế nhỏ gọn cùng hiệu năng mạnh mẽ\niPhone 15 Pro là bước tiến mới trong thế hệ smartphone của Apple, sở hữu nhiều cải tiến đáng kể so với các phiên bản trước. Được trang bị camera tiên tiến, hiệu suất mạnh mẽ từ chip A17 Pro cùng tính năng bảo mật cao cấp và hệ điều hành iOS 17 tối ưu. Hơn nữa, sản phẩm này được thiết kế đẹp mắt và sang trọng. Đây không chỉ là một chiếc điện thoại thông minh mà còn là biểu tượng của sự tiên tiến và đẳng cấp.\n\nVì sao nên mua iPhone 15 Pro tại VTechStore?\n\n\nSản phẩm chính hãng, nguyên seal\n\n\nĐến với chúng tôi, bạn có thể hoàn toàn yên tâm về chất lượng và nguồn gốc của sản phẩm. Bởi CIickbuy là đại lý ủy quyền chính hãng của Apple tại Việt Nam, có gần 20 cơ sở trên khắp cả nước."
+      ]
+    },
+    {
+      "tag": "iphone_3",
+      "patterns": [
+        "Thông tin về iPhone 15 Plus 128GB",
+        "iPhone 15 Plus 128GB",
+        "Cho tôi biết thông tin về iPhone 15 Plus 128GB"
+      ],
+      "responses": [
+        "iPhone 15 Plus 128GB có giá: 21,890,000đ.\niPhone 15 Plus - Điểm nhấn cho sự hoàn hảo\niPhone 15 Plus là biểu tượng của sự tiên tiến trong công nghệ di động, đem lại trải nghiệm đỉnh cao cho người dùng. Với màn hình OLED kích thước lớn và độ phân giải Super Retina XDR, tạo nên hình ảnh sắc nét, màu sắc chân thực với độ tương phản vượt trội. Không chỉ vậy, bộ vi xử lý Apple A16 Bionic mạnh mẽ, mang lại hiệu suất đa nhiệm mượt mà. Tính năng này giúp người dùng thực hiện mọi tác vụ một cách trơn tru và nhanh chóng, thậm chí ở các tựa game nặng.\n \nVì sao nên mua iPhone 15 Plus tại VTechStore?\nVới cam kết luôn đem lại sự hài lòng cho khách hàng, VTechStore luôn đặt chất lượng sản phẩm và dịch vụ lên hàng đầu. Đảm bảo sẽ mang lại trải nghiệm mua sắm an toàn, tiện lợi và đáng tin cậy nhất cho tất cả mọi người."
+      ]
+    },
+    {
+      "tag": "iphone_4",
+      "patterns": [
+        "Thông tin về iPhone 15 128GB",
+        "iPhone 15 128GB",
+        "Cho tôi biết thông tin về iPhone 15 128GB"
+      ],
+      "responses": [
+        "iPhone 15 128GB có giá: 18,690,000đ.\niPhone 15 - Nâng tầm đẳng cấp với vô vàn tính năng nổi bật\niPhone 15 là sự lựa chọn hàng đầu cho những người đam mê công nghệ và sự sành điệu. Với màn hình Dynamic Island Super Retina XDR, kích thước 6.1 inch sẽ thể hiện hình ảnh vô cùng sắc nét và sống động. Đồng thời, dòng sản phẩm này được thiết kế với mặt lưng kính nhám chống bám bụi, bám vân tay. Thiết kế này mang đến trải nghiệm thoải mái cho người dùng. Cụ thể từng tính năng vượt trội như thế nào thì hãy cùng VTechStore tìm hiểu qua bài viết này nhé."
+      ]
+    },
+    {
+      "tag": "iphone_5",
+      "patterns": [
+        "Thông tin về iPhone 13 128GB",
+        "iPhone 13 128GB",
+        "Cho tôi biết thông tin về iPhone 13 128GB"
+      ],
+      "responses": [
+        "iPhone 13 128GB có giá: 13,390,000đ.\nSản phẩm chính hãng và chất lượng: VTechStore là đại lý bán lẻ uỷ quyền iPhone chính hãng của Apple Việt Nam, cam kết cung cấp sản phẩm iPhone 13 chính hãng và đảm bảo chất lượng.\n\nChính sách bảo hành và đổi trả: công khai, minh bạch.\nHỗ trợ sau bán hàng: VTechStore không chỉ dừng lại sau quá trình mua hàng mà còn tiếp tục hỗ trợ sau bán hàng. Chính sách hậu mãi bao gồm sửa chữa, hỗ trợ về vấn đề kỹ thuật, và giải quyết sự cố một cách nhanh chóng và chuyên nghiệp.\nCác cửa hàng rộng rãi và tiện lợi: VTechStore có mạng lưới cửa hàng rộng khắp trên toàn quốc, bao gồm các thành phố lớn như Hà Nội, Sài Gòn và Đà Nẵng. Việc phát triển từ 1 tới 20 cửa hàng trên toàn quốc, đó là sự lắng nghe, sự thấu hiểu tâm lý khách hàng."
+      ]
+    },
+    {
+      "tag": "iphone_6",
+      "patterns": [
+        "Thông tin về iPhone 11",
+        "iPhone 11",
+        "Cho tôi biết thông tin về iPhone 11"
+      ],
+      "responses": [
+        "iPhone 11 có giá: 8,750,000đ.\niPhone 11 - siêu phẩm được mong chờ nhất năm 2019 của Apple chuẩn bị ra mắt. Với những cải tiến vượt trội, phiên bản iPhone mới nhất hứa hẹn sẽ làm bùng nổ thị trường công nghệ.\niPhone 11, ra mắt vào tháng 9 năm 2019, là một trong những mẫu điện thoại thông minh được Apple giới thiệu. Được coi là phiên bản kế thừa của iPhone XR, iPhone 11 mang đến nhiều cải tiến vượt trội về hiệu năng, camera và tuổi thọ pin. Với thiết kế đẹp mắt, hệ điều hành iOS mượt mà, và sự tối ưu cao về phần cứng và phần mềm, iP11 đã nhanh chóng trở thành một trong những sản phẩm nổi bật trong phân khúc điện thoại cao cấp. iPhone 11 với 6 phiên bản màu sắc."
+      ]
+    },
+    {
+      "tag": "iphone_7",
+      "patterns": [
+        "Thông tin về iPhone 12 64GB",
+        "iPhone 12 64GB",
+        "Cho tôi biết thông tin về iPhone 12 64GB"
+      ],
+      "responses": [
+        "iPhone 12 64GB có giá: 11,690,000đ.\nĐánh giá chi tiết iPhone 12: Công nghệ tiên tiến trong thiết kế và hiệu năng cao\niPhone 12 là một trong những sản phẩm điện thoại thông minh hàng đầu trên thị trường hiện nay. Với công nghệ tiên tiến, thiết kế đẹp mắt và hiệu năng mạnh mẽ, iPhone 12 đã thu hút sự quan tâm của rất nhiều người dùng. Trong bài viết này, chúng ta sẽ đánh giá chi tiết về iPhone 12 và các phiên bản của nó. \nĐánh giá tổng quan về iPhone 12\niPhone 12 mang đến một thiết kế đầy mê hoặc với viền thép không gỉ và mặt kính Ceramic Shield siêu bền. Máy có màn hình Super Retina XDR với độ phân giải cao, mang lại trải nghiệm xem hình ảnh và video sắc nét và sống động.\nThiết kế và màn hình\nVới thiết kế gọn nhẹ và các góc bo tròn, iPhone 12 rất dễ cầm nắm và sử dụng."
+      ]
+    },
+    {
+      "tag": "iphone_8",
+      "patterns": [
+        "Thông tin về iPhone 11 128GB",
+        "iPhone 11 128GB",
+        "Cho tôi biết thông tin về iPhone 11 128GB"
+      ],
+      "responses": [
+        "iPhone 11 128GB có giá: 9,990,000đ.\niPhone 11 - siêu phẩm được mong chờ nhất năm 2019 của Apple chuẩn bị ra mắt. Với những cải tiến vượt trội, phiên bản iPhone mới nhất hứa hẹn sẽ làm bùng nổ thị trường công nghệ.\niPhone 11 với 6 phiên bản màu sắc. Camera có khả năng chụp ảnh vượt trội, thời lượng pin cực dài và bộ vi xử lý mạnh nhất từ trước đến nay. Mang đến trải nghiệm tuyệt vời dành cho bạn.\n\nRực rỡ sắc màu, thể hiện cá tính\n\nApple iPhone 11 có tới 6 sự lựa chọn màu sắc."
+      ]
+    },
+    {
+      "tag": "iphone_9",
+      "patterns": [
+        "Thông tin về iPhone 12 128GB",
+        "iPhone 12 128GB",
+        "Cho tôi biết thông tin về iPhone 12 128GB"
+      ],
+      "responses": [
+        "iPhone 12 128GB có giá: 12,590,000đ.\niPhone 12 128GB: Hiệu năng, Camera, Pin và Nhiều Tính Năng Đáng Chú Ý\nĐiện thoại iPhone 12 128GB là một trong những phiên bản nổi bật trong dòng sản phẩm iPhone 12 của Apple. Với thiết kế hiện đại, hiệu năng mạnh mẽ và nhiều tính năng đáng chú ý, iPhone 12 128GB đáp ứng tốt nhu cầu sử dụng của người dùng. Trong bài viết này, chúng ta sẽ tìm hiểu chi tiết về điện thoại này và những điểm nổi bật của nó. \nI. Giới thiệu\nTrong thời đại công nghệ phát triển, iPhone 12 128GB là một sự lựa chọn phổ biến cho người dùng muốn trải nghiệm hệ sinh thái Apple. Với màn hình Retina XDR, sức mạnh từ chip A14 Bionic, khả năng chụp ảnh chất lượng cao, và khả năng quay video 4K, iPhone 12 128GB mang đến trải nghiệm di động tuyệt vời."
+      ]
+    },
+    {
+      "tag": "iphone_10",
+      "patterns": [
+        "Thông tin về iPhone 14 Plus 128GB VNA - Tặng BH rơi vỡ vào nước",
+        "iPhone 14 Plus 128GB VNA - Tặng BH rơi vỡ vào nước",
+        "Cho tôi biết thông tin về iPhone 14 Plus 128GB VNA - Tặng BH rơi vỡ vào nước"
+      ],
+      "responses": [
+        "iPhone 14 Plus 128GB VNA - Tặng BH rơi vỡ vào nước có giá: 18,890,000đ.\niPhone 14 Plus là phiên bản thay thế mini, vốn được Apple giới thiệu trên thế hệ iPhone 12 và 13 series, nhằm tránh nhầm lẫn với dòng Pro Max. Đây là phiên bản giá rẻ hơn của iPhone 14 Pro Max, với thiết kế tinh tế với những nâng cấp ấn tượng về camera và khả năng an toàn mới mang tính đột phá.\n\niPhone 14 Plus\nThiết kế notch cổ điển\nPhone 14‌ Plus sẽ là một trong hai mẫu ‌iPhone‌ có kích thước 6,7 inch trong dòng sản phẩm ‌iPhone‌ năm 2022, bên cạnh iPhone 14 Pro‌ Max. Không giống như ‌iPhone 14 Pro‌ Max, sẽ có phần thay thế notch hình viên thuốc và đục lỗ mới, iPhone 14‌ Plus sẽ giữ lại thiết kế notch tai thỏ và bộ xử lý giống như iPhone 13 nhưng trong một hệ số hình thức lớn hơn.\nMàn hình Apple-custom OLED của iPhone 14 Plus sử dụng công nghệ hiển thị Super Retina XDR có tần số quét 60Hz, giúp dữ liệu hình ảnh sẽ được truyền đến mắt của chúng ta trong cùng một thời điểm và hình ảnh trở nên mượt mà, sống động hơn.\nMàn hình của iPhone 14 Plus làm bằng chất liệu Ceramic Shield siêu bền dành riêng cho iPhone và cứng hơn bất kỳ loại kính điện thoại thông minh nào khác - và được bảo vệ khỏi các sự cố tràn và tai nạn thông thường với khả năng chống nước và bụi."
+      ]
+    },
+    {
+      "tag": "iphone_11",
+      "patterns": [
+        "Thông tin về iPhone 14 128GB VNA - Tặng BH rơi vỡ vào nước",
+        "iPhone 14 128GB VNA - Tặng BH rơi vỡ vào nước",
+        "Cho tôi biết thông tin về iPhone 14 128GB VNA - Tặng BH rơi vỡ vào nước"
+      ],
+      "responses": [
+        "iPhone 14 128GB VNA - Tặng BH rơi vỡ vào nước có giá: 16,490,000đ.\niPhone 14 chính hãng VNA - Máy mới nguyên hộp, chưa active\niPhone 14 chính hãng - sản phẩm được mong đợi của Apple trong năm 2023. iPhone 14 sẽ được trang bị nhiều tính năng và cải tiến đáng chú ý như thiết kế mới, màn hình lớn hơn, hệ điều hành mới nhất, hiệu năng vượt trội, camera chất lượng cao, pin dung lượng lớn, và kết nối 5G và Wi-Fi 6E. Với những tính năng này, iPhone 14 và các model iphone 14 Series sẽ mang lại trải nghiệm tuyệt vời cho người dùng và là sự lựa chọn đáng cân nhắc cho những ai đang tìm kiếm một sản phẩm smartphone mới. Vậy khi mua Iphone 14 chính hãng tại VTechStore các bạn được những gì:\n\nTặng Phiếu mua hàng 1.500.000đ  ( Xem chi tiết)\nGiảm giá ngay 1."
+      ]
+    },
+    {
+      "tag": "iphone_12",
+      "patterns": [
+        "Thông tin về iPhone 14 Pro 128GB",
+        "iPhone 14 Pro 128GB",
+        "Cho tôi biết thông tin về iPhone 14 Pro 128GB"
+      ],
+      "responses": [
+        "iPhone 14 Pro 128GB có giá: 23,990,000đ.\niPhone 14 Pro được nhà sản xuất Apple đã tung ra thị trường vào tháng 09/2022, một siêu phẩm trong thế giới smartphone. Máy được trang bị con chip Apple A16 Bionic vô cùng mạnh mẽ và thiết kế mới hình màn hình, đem đến cho người dùng iPhone những trải nghiệm đầy mới mẻ.\nVậy khi mua Iphone 14 Pro chính hãng tại VTechStore các bạn được những gì:\n\nTặng Phiếu mua hàng 1.500.000đ  ( Xem chi tiết)\nGiảm giá ngay 1.500."
+      ]
+    },
+    {
+      "tag": "iphone_13",
+      "patterns": [
+        "Thông tin về iPhone 15 256GB",
+        "iPhone 15 256GB",
+        "Cho tôi biết thông tin về iPhone 15 256GB"
+      ],
+      "responses": [
+        "iPhone 15 256GB có giá: 22,690,000đ.\niPhone 15 256 GB: Cuộc Cách Mạng Thiết Kế và Hiệu Năng\niPhone 15 là sản phẩm trở thành tâm điểm của sự kiện ra mắt thường niên hàng năm của Apple vào tháng 09/2023. Điện thoại này đã được nâng cấp đáng kể với những tính năng ấn tượng, đặc biệt là camera chính 48 MP, vi xử lý Apple A16 Bionic, và việc chuyển từ cổng Lightning sang cổng kết nối Type-C.\nThiết Kế Sang Trọng và Đặc Trưng\nMột trong những điểm đáng chú ý về thiết kế của iPhone 15 là sự tiếp nối kiểu dáng vuông vức, một đặc điểm đặc trưng của dòng sản phẩm iPhone trong vài năm qua. Khung của chiếc điện thoại này được làm từ nhôm cứng cáp, tạo sự chắc chắn và đẳng cấp. Sự kết hợp giữa vẻ ngoại hình mạnh mẽ và đẳng cấp đã trở thành biểu tượng của Apple.\niPhone 15 256GB mang đến một đột phá trong thiết kế mặt lưng bằng việc sử dụng kính cường lực cao cấp theo kiểu nhám."
+      ]
+    },
+    {
+      "tag": "iphone_14",
+      "patterns": [
+        "Thông tin về iPhone 15 Pro 256GB",
+        "iPhone 15 Pro 256GB",
+        "Cho tôi biết thông tin về iPhone 15 Pro 256GB"
+      ],
+      "responses": [
+        "iPhone 15 Pro 256GB có giá: 27,390,000đ.\niPhone 15 Pro 256GB - Một Sự Kết Hợp Tinh Tế Giữa Thiết Kế Đỉnh Cao và Hiệu Năng Mạnh Mẽ!\niPhone 15 Pro, sản phẩm hàng đầu của Apple , đã chính thức ra mắt vào lúc 0h30 ngày 13/9/2023, mang đến sự kỳ vọng và mong đợi từ hàng triệu người hâm mộ. Dưới đây là một số điểm nổi bật về thông số để giúp bạn hiểu rõ hơn về phiên bản iPhone 15 Pro 256GB.\n\nThiết kế với khung Titan nhẹ và bền\nĐược kết thúc từ chất liệu Titan cao cấp, một kim loại hợp kim được ưa chuộng trong ngành hàng không và vũ trụ, đây là một chiếc điện thoại mạnh mẽ vừa nhẹ nhàng, chắc chắn và nhẹ nhàng.\nChất liệu Titan không chỉ nổi bật với độ bền vững mạnh, mà còn thể hiện khả năng giữ trọng lượng ấn tượng, tạo nên phiên bản Pro nhẹ nhất từ trước đến nay của Apple. Tất cả chi tiết được chăm sóc tỉ mỉ: bề mặt được tạo vân nhám tinh tế, các cạnh được bo tròn một cách tinh xảo, và viền máy thiết kế siêu mỏng. Tất cả điều này cộng lại tạo nên một thiết kế đẳng cấp và thời thượng."
+      ]
+    },
+    {
+      "tag": "iphone_15",
+      "patterns": [
+        "Thông tin về iPhone 15 Pro 512GB",
+        "iPhone 15 Pro 512GB",
+        "Cho tôi biết thông tin về iPhone 15 Pro 512GB"
+      ],
+      "responses": [
+        "iPhone 15 Pro 512GB có giá: 35,790,000đ.\niPhone 15 Pro 512GB - Đây là phiên bản tiên tiến và hoàn hảo của dòng sản phẩm iPhone 15 Series , mang đến cho bạn những trải nghiệm không giới hạn từ khả năng lưu trữ độcg đến hiệu mạnh mẽ và thiết kế tinh tế của táo .\nThiết kế đẳng cấp với titan chất liệu \niPhone 15 Pro 512GB tiếp tục thừa hưởng đẳng cấp của các phiên bản Pro trước đó, tuy nhiên, với một cải tiến đáng kinh ngạc đó là khung viền bằng titan cao cấp được chế độ tạo thông qua quy trình gia công cơ khí, chà dát, đánh bóng và phun mài chuẩn xác, tạo nên sự sang trọng độc đáo. Máy có các cạnh cong mới và máy viền mỏng nhất từng xuất hiện trên iPhone, mang lại cảm giác thoải mái và tinh tế hơn khi cầm trong tay. Sản phẩm cũng có khả năng chống nước và bụi IP68, giúp bảo vệ thiết bị khỏi các tác nhân bên ngoài.\n\nHiệu suất mạnh mẽ với chip A17 Pro trên iPhone 15 Pro\niPhone 15 Pro 512GB là một bước đột phá trong hiệu suất điện thoại di động. Được trang bị bộ xử lý Apple A17 Pro, con chip mạnh mẽ nhất trong thế giới smartphone hiện nay."
+      ]
+    },
+    {
+      "tag": "iphone_16",
+      "patterns": [
+        "Thông tin về iPhone 15 Pro Max 512GB",
+        "iPhone 15 Pro Max 512GB",
+        "Cho tôi biết thông tin về iPhone 15 Pro Max 512GB"
+      ],
+      "responses": [
+        "iPhone 15 Pro Max 512GB có giá: 35,690,000đ.\niPhone 15 Pro Max 512GB: Hòa quyện công nghệ và đẳng cấp\nChào mừng bạn đến với cuộc cách mạng công nghệ cùng với iPhone 15 Pro Max 512GB - phiên bản độc độc và chất lượng cao của dòng sản phẩm iPhone 15 Series trong chuỗi sự kiện ra mắt: iPhone 15 , iPhone 15 Plus , iPhone 15 Pro , iPhone 15ProMax . Hãy cùng khám phá những điểm nổi bật về thông số của chiếc điện thoại này, từ khả năng lưu trữ đến sức mạnh vượt trội và thiết kế đẳng cấp.\nThiết kế cao cấp với titan chất liệu\niPhone 15 Pro Max 512GB tiếp tục thừa hưởng phong cách đẳng cấp của các dòng Pro Max trước đây, tuy nhiên với khung titan mới sang lần đầu tiên xuất hiện. Khung viền bằng titan có độ mài bóng tinh tế, tuyệt đẹp được tạo nên thông qua quy trình gia công cơ khí, chà nhám, đánh bóng và phun mài chuẩn xác.\nCác máy viền cạnh cong mới và viền máy mỏng nhất đã từng có trên iPhone giúp bạn cảm thấy thoải mái hơn khi cầm trong tay. Màn hình vô cùng cuốn hút với viền mỏng, làm nổi bật nội dung."
+      ]
+    },
+    {
+      "tag": "iphone_17",
+      "patterns": [
+        "Thông tin về iPhone 15 Pro 1TB",
+        "iPhone 15 Pro 1TB",
+        "Cho tôi biết thông tin về iPhone 15 Pro 1TB"
+      ],
+      "responses": [
+        "iPhone 15 Pro 1TB có giá: 41,490,000đ.\niPhone 15 Pro 1TB với thiết kế đỉnh cao, mạnh mẽ và hệ thống camera chuyên nghiệp.\n\nGiới thiệu về iPhone 15 Pro 1TB\niPhone 15 Pro 1TB là một trong những phiên bản đáng chú ý của dòng iPhone 15 Series. Với dung lượng lưu trữ ấn tượng và sự kết hợp hoàn hảo giữa thiết kế đẳng cấp và thông số hiệu năng mạnh mẽ, sản phẩm này hứa hẹn đáp ứng mọi nhu cầu của người dùng.\nThiết Kế Đỉnh Cao\nThiết kế của iPhone 15 Pro 1TB tiếp tục lưu giữ vẻ ngoại hình vuông vức và sang trọng. Với mặt lưng bằng kính cường lực cao cấp và khung máy Titanium, sản phẩm này không chỉ đẹp mắt mà còn cực kỳ bền bỉ. Màn hình OLED siêu mỏng và hình dạng notch tối ưu hóa mang đến trải nghiệm xem video và sử dụng đỉnh cao."
+      ]
+    },
+    {
+      "tag": "iphone_18",
+      "patterns": [
+        "Thông tin về iPhone 15 Plus 256GB",
+        "iPhone 15 Plus 256GB",
+        "Cho tôi biết thông tin về iPhone 15 Plus 256GB"
+      ],
+      "responses": [
+        "iPhone 15 Plus 256GB có giá: 24,290,000đ.\nTại Sao Nên Mua iPhone 15 Plus 256GB tại VTechStore?\nVTechStore là đại lý bán lẻ chính thức của Apple, iPhone 15 Plus 256GB thuộc chuỗi sản phẩm iPhone 15 Series của Apple Việt Nam. Dưới đây là những lý do bạn nên chọn VTechStore làm nơi để gửi gắm niềm tin:\n\n\nChất Lượng Đảm Bảo:\n\n\nVTechStore là đại lý uỷ quyền chính thức của Apple tại Việt Nam, đảm bảo cung cấp sản phẩm chính hãng với chất lượng đỉnh cao.\n\n\nChính Sách Bảo Hành và Đổi Trả Đặc Biệt:\n\n\nKhi mua iPhone 15 Plus chính hãng VN/A, bạn được hỗ trợ mua gói bảo hành VIP, bao gồm bảo hành rơi vỡ và vào nước trong 12 tháng. \n\n\nHỗ Trợ Sau Bán Hàng Chuyên Nghiệp:\n\n\nVTechStore cam kết hỗ trợ sau bán hàng, bao gồm sửa chữa, giải quyết vấn đề kỹ thuật một cách nhanh chóng và chuyên nghiệp.\n\n\nCửa Hàng Rộng Rãi và Tiện Lợi:\n\n\nVới mạng lưới cửa hàng rộng khắp cả nước trải dài cả 3 miền gồm 17 cơ sở, VTechStore đáp ứng nhu cầu mua sắm của khách hàng ở nhiều địa điểm khác nhau.\n\n\nGiá Cả Cạnh Tran, Minh Bạch:\n\n\nVTechStore cam kết giá cả cạnh tranh và minh bạch, cập nhật giá thường xuyên để đảm bảo tính minh bạch trong giao dịch."
+      ]
+    },
+    {
+      "tag": "iphone_19",
+      "patterns": [
+        "Thông tin về iPhone 15 512GB",
+        "iPhone 15 512GB",
+        "Cho tôi biết thông tin về iPhone 15 512GB"
+      ],
+      "responses": [
+        "iPhone 15 512GB có giá: 29,990,000đ.\niPhone 15 512GB tại VTechStore: Sự Lựa Chọn Hoàn Hảo với Dung Lượng Lớn\nVTechStore, đại lý bán lẻ uỷ quyền chính hãng của Apple tại Việt Nam, cung cấp iPhone 15 512GB, đảm bảo chất lượng và trải nghiệm tốt nhất cho khách hàng.\nDung Lượng 512GB - Lý do khiến iPhone 15 512GB trở nên đặc biệt:\n\n\nLưu Trữ Không Giới Hạn: Với dung lượng 512GB, iPhone 15 cho phép bạn lưu trữ một lượng lớn ảnh, video, ứng dụng, và các tệp tin mà không lo về vấn đề hết dung lượng.\n\nHiệu Suất Mạnh Mẽ: iPhone 15 với dung lượng lớn cung cấp không gian đủ để xử lý các tác vụ nặng mà không gặp trục trặc, từ chơi game đồ họa cao đến chỉnh sửa video.\nTối Ưu Hóa Dữ Liệu: Dung lượng lớn giúp quản lý dữ liệu dễ dàng, đặc biệt quan trọng cho những người dùng cần nhiều bộ nhớ cho công việc hoặc giải trí.\nTương Lai An Tâm: Với 512GB, bạn sẽ không phải lo lắng về việc nâng cấp dung lượng trong tương lai, làm cho iPhone 15 trở thành một khoản đầu tư lâu dài.\n\nƯu Đãi Khi Mua iPhone 15 512GB tại VTechStore:\n\n\nChất Lượng Đảm Bảo: Sản phẩm chính hãng Apple, Fullbox 100% chưa kích hoạt."
+      ]
+    },
+    {
+      "tag": "iphone_20",
+      "patterns": [
+        "Thông tin về iPhone 15 Pro Max 1TB",
+        "iPhone 15 Pro Max 1TB",
+        "Cho tôi biết thông tin về iPhone 15 Pro Max 1TB"
+      ],
+      "responses": [
+        "iPhone 15 Pro Max 1TB có giá: 44,190,000đ.\nChào mừng bạn đến với iPhone 15 Pro Max 1TB - Sự Lựa Chọn Hoàn Hảo Cho Khả Năng Lưu Trữ Và Sáng Tạo Của Bạn!\nNếu bạn là người yêu thích công nghệ và đang tìm kiếm một chiếc điện thoại di động mạnh mẽ, đẳng cấp và có nhu cầu lưu trữ dung lượng lớn thì iPhone 15 Pro Max 1TB tại VTechStore chính là lựa chọn tối ưu dành cho bạn . Dưới đây là những thông tin nổi bật giúp bạn hiểu rõ hơn về chiếc điện thoại này.\n\nLưu trữ không giới hạn với iPhone 15 Pro Max 1TB\nVới dung lượng lưu trữ lên đến 1TB, bạn có thể thoải mái lưu trữ hàng ngàn ảnh chất lượng cao, video 4K, ứng dụng và tài liệu mà không gặp bất kỳ giới hạn nào. Đây là lựa chọn tuyệt vời cho những người yêu thích ảnh chụp và quay video, cũng như cần lưu trữ nhiều dữ liệu quan trọng.\nVới dung lượng lớn, bạn có thể tạo ra và chỉnh sửa video chuyên nghiệp, lưu trữ bộ sưu tập ảnh và video cá nhân, và làm việc với các ứng dụng đòi hỏi nhiều không gian lưu trữ mà không cần lo lắng vì đầy dung lượng.\nHiệu suất mạnh mẽ\niPhone 15 Pro Max 1TB được trang bị bộ xử lý Apple A17 Pro mạnh mẽ, cùng với màn hình OLED ProMotion 120Hz, giúp bạn trải nghiệm tốc độ và hiệu suất không giới hạn."
+      ]
+    },
+    {
+      "tag": "oppo_1",
+      "patterns": [
+        "Thông tin về Oppo Reno 11F (5G) 8GB 256GB",
+        "Oppo Reno 11F (5G) 8GB 256GB",
+        "Cho tôi biết thông tin về Oppo Reno 11F (5G) 8GB 256GB"
+      ],
+      "responses": [
+        "Oppo Reno 11F (5G) 8GB 256GB có giá: 7,990,000đ.\nOppo Reno 11F (5G) 8GB 256GB là một smartphone tầm trung, ra mắt vào năm 2023.\nMáy sở hữu màn hình AMOLED 6.43 inch với độ phân giải Full HD+ và tần số quét 90Hz.\nĐược trang bị chip MediaTek Dimensity 900, cùng với RAM 8GB và bộ nhớ trong 256GB.\nCamera sau ba ống kính 64MP + 8MP + 2MP và camera trước 32MP cho khả năng chụp ảnh chất lượng cao.\nPin dung lượng 4500mAh hỗ trợ sạc nhanh 65W, và chạy hệ điều hành ColorOS dựa trên Android 13.\n"
+      ]
+    },
+    {
+      "tag": "oppo_2",
+      "patterns": [
+        "Thông tin về Oppo A58 (4G) 6GB 128GB",
+        "Oppo A58 (4G) 6GB 128GB",
+        "Cho tôi biết thông tin về Oppo A58 (4G) 6GB 128GB"
+      ],
+      "responses": [
+        "Oppo A58 (4G) 6GB 128GB có giá: 4,090,000đ.\nOppo A58 - Hiệu năng vượt trội, trải nghiệm đỉnh cao\nOppo A58 là một chiếc điện thoại thông minh tầm trung với màn hình sắc nét và thiết kế hiện đại. Máy được thiết kế với hiệu năng ổn định, cùng hệ thống camera tiên tiến. Dòng máy này sẽ phù hợp cho những ai đang tìm kiếm một thiết bị đẹp mắt và mạnh mẽ trong phân khúc giá không quá cao. Cụ thể như thế nào thì hãy cùng VTechStore tìm hiểu qua bài viết dưới đây nhé. \n\nVì sao nên mua Oppo A58 tại VTechStore?\nMua Oppo A58 tại VTechStore có thể là lựa chọn tốt vì nhiều lý do sau:\nSản phẩm luôn được đảm bảo 100% chính hãng\nVTechStore cam kết cung cấp sản phẩm chính hãng, đảm bảo chất lượng và nguồn gốc rõ ràng.  Khi khách hàng đến với chúng tôi hoàn toàn có thể yên tâm về sản phẩm mình mua."
+      ]
+    },
+    {
+      "tag": "oppo_3",
+      "patterns": [
+        "Thông tin về Oppo A38 4GB 64GB",
+        "Oppo A38 4GB 64GB",
+        "Cho tôi biết thông tin về Oppo A38 4GB 64GB"
+      ],
+      "responses": [
+        "Oppo A38 4GB 64GB có giá: 3,890,000đ.\nOppo A38 - Đẳng cấp, thời thượng vượt thời gian\nOPPO A38 là một trong những lựa chọn hàng đầu cho người dùng đang tìm kiếm một chiếc điện thoại đa chức năng trong phân khúc giá rẻ. Dòng sản phẩm này được thiết kế sang trọng, màn hình sắc nét và khả năng xử lý mượt. Sự kết hợp này không chỉ đem lại trải nghiệm hấp dẫn trong việc duyệt web, xem phim hay chơi game mà còn đáp ứng được nhu cầu chụp ảnh chuyên nghiệp của khách hàng. Cụ thể từng tính năng ra sao thì hãy cùng VTechStore tìm hiểu thông qua bài viết này nhé.\n\nVì sao nên mua Oppo A38 tại VTechStore?\nVTechStore là đơn vị cung cấp các thiết bị di động uy tín và lâu năm tại thị trường Việt Nam. Vì vậy, chúng tôi luôn đảm bảo chất lượng của tất cả các sản phẩm bán ra cũng như quyền lợi của mọi khách hàng."
+      ]
+    },
+    {
+      "tag": "oppo_4",
+      "patterns": [
+        "Thông tin về OPPO A18 4GB 64GB",
+        "OPPO A18 4GB 64GB",
+        "Cho tôi biết thông tin về OPPO A18 4GB 64GB"
+      ],
+      "responses": [
+        "OPPO A18 4GB 64GB có giá: 3,090,000đ.\nOPPO A18 - Hiệu năng đỉnh cao, phong cách độc đáo\nOppo A18 là sự kết hợp hoàn hảo giữa hiệu năng mạnh mẽ và thiết kế đẳng cấp. Với chipset MediaTek Helio G85, điện thoại này sẵn sàng đáp ứng mọi nhu cầu từ công việc đến giải trí. Màn hình lớn 6.56 inch với tần số quét 90Hz mang lại trải nghiệm hiển thị mượt mà và sống động. Khả năng chống nước và bụi IPX4/IP5X cùng với thiết kế tinh tế và màu sắc đa dạng làm nổi bật trong phân khúc điện thoại giá rẻ. Đây là sự lựa chọn hoàn hảo cho một trải nghiệm đỉnh cao."
+      ]
+    },
+    {
+      "tag": "oppo_5",
+      "patterns": [
+        "Thông tin về Oppo Reno 10 Pro (5G) 12GB 256GB",
+        "Oppo Reno 10 Pro (5G) 12GB 256GB",
+        "Cho tôi biết thông tin về Oppo Reno 10 Pro (5G) 12GB 256GB"
+      ],
+      "responses": [
+        "Oppo Reno 10 Pro (5G) 12GB 256GB có giá: 9,990,000đ.\nOppo Reno 10 Pro (5G) là mẫu điện thoại mới được Oppo ra mắt trong năm 2023. Với thiết kế mới, màn hình lón và sang trọng kèm theo đó là hiệu năng được nâng cấp mạnh mẽ. Đây sẽ là một sản phẩm đáng để bạn cân nhắc trong tầm giá, hãy điểm qua những điểm nổi bật của sản phẩm này nhé. Thiết kế mới sang trọng Oppo Reno 10 5G được thiết kế với mặt lưng được bo cong, man lại cảm giác cầm nắm thoải mái dễ chịu. Đểm nhấn của mặt lưng này chĩnh là cụm Camera được thiết kế nằm gọn trong hình bầu dục.  Điểm nhấn tiếp theo là về màn hình của sản phẩm, mà hình của Oppo Reno 10 được thiết kế cong tràn sang hai bên, cho cảm giác viền màn hình vô cùng mỏng."
+      ]
+    },
+    {
+      "tag": "oppo_6",
+      "patterns": [
+        "Thông tin về Oppo Reno 10 (5G) 8GB 128GB",
+        "Oppo Reno 10 (5G) 8GB 128GB",
+        "Cho tôi biết thông tin về Oppo Reno 10 (5G) 8GB 128GB"
+      ],
+      "responses": [
+        "Oppo Reno 10 (5G) 8GB 128GB có giá: 7,590,000đ.\nMới đây Oppo đã chính thức ra mắt sản phẩm Oppo Reno 10 5G tại thị trường Việt Nam. Phiên bản lần này mang màu sắc và thiết kế mới so với thế hệ trước, kèm theo đó hiệu năng cũng đã được nâng cấp để mang lại những trải nghiệm mượt mà cho người dùng. Thiết kế màu sắc mới Khác với thế hệ tiền nhiệm, Oppo Reno 10 mang trên mình một thiết kế hoàn toàn mới, kèm theo đó là 2 màu sắc trẻ trung thể hiện cá tính là Blue và Gray. Sản phẩm cũng được Oppo chau chuốt để mang đến một thiết kế sang trọng giúp thu hút mọi ánh nhìn.  Sản phẩm cũng được thiết kế đường nét bo cong ở cả mặt trước và sau, mang lại cảm giác cần nắm vô cùng thoải mái khi cầm trên tay lâu. Màn hình trải nghiệm lớn Oppo đã trang bị cho sản phẩm của mình màn hình với kích thước lên đến 6."
+      ]
+    },
+    {
+      "tag": "oppo_7",
+      "patterns": [
+        "Thông tin về Oppo Reno 8T (4G) 8GB 256GB",
+        "Oppo Reno 8T (4G) 8GB 256GB",
+        "Cho tôi biết thông tin về Oppo Reno 8T (4G) 8GB 256GB"
+      ],
+      "responses": [
+        "Oppo Reno 8T (4G) 8GB 256GB có giá: 6,790,000đ.\nSở hữu chip nhà MediaTek mượt mà\nThật may mắn khi con chip rất được yêu thích của nhà MediaTek lại được hiện diện trên OPPO Reno8 T 4G. Chipset Helio G99 được sản xuất trên tiến trình TSMC 6nm, 8 nhân. Trong đó có 6 nhân Cortex-A55 tiết kiệm điện năng hơn và 2 nhân Cortex-A76 tốc độ 2.2GHz. Tiến trình mới trên Helio G99 giúp điện thoại được hoạt động mượt mà, bền bỉ và tối ưu pin hiệu quả. Cạnh đó, điện thoại cũng thoải mái khi sở hữu RAM 8GB cùng bộ nhớ trong đạt 256GB, giúp người dùng có thể lưu trữ thỏa thích, tùy ý muốn."
+      ]
+    },
+    {
+      "tag": "oppo_8",
+      "patterns": [
+        "Thông tin về Oppo A78 (4G) 8GB 256GB",
+        "Oppo A78 (4G) 8GB 256GB",
+        "Cho tôi biết thông tin về Oppo A78 (4G) 8GB 256GB"
+      ],
+      "responses": [
+        "Oppo A78 (4G) 8GB 256GB có giá: 5,990,000đ.\nOppo A78 - Hiệu năng mạnh mẽ, trải nghiệm đỉnh cao \nOppo A78 là một trong những mẫu điện thoại tầm trung của thương hiệu Oppo. Đây là sự kết hợp tinh tế giữa thiết kế trẻ trung, hiệu năng mạnh mẽ và nhiều tính năng hấp dẫn. Với màn hình lớn, sắc nét và camera chất lượng, sản phẩm này hứa hẹn sẽ mang đến trải nghiệm tuyệt vời cho người dùng. Chính vì vậy, chiếc smartphone này là sự lựa chọn hoàn hảo cho những ai đang tìm kiếm một chiếc điện thoại đa năng, đẹp mắt với giá cả phải chăng.\n\nVì sao nên mua Oppo A78 tại VTechStore?\nHiện nay, trên thị trường đang có rất nhiều đơn vị cung cấp dòng sản phẩm này. Tuy nhiên, có rất nhiều sản phẩm là hàng giả, hàng nhái và hàng kém chất lượng."
+      ]
+    },
+    {
+      "tag": "oppo_9",
+      "patterns": [
+        "Thông tin về Oppo Reno 8T (5G) 8GB 128Gb",
+        "Oppo Reno 8T (5G) 8GB 128Gb",
+        "Cho tôi biết thông tin về Oppo Reno 8T (5G) 8GB 128Gb"
+      ],
+      "responses": [
+        "Oppo Reno 8T (5G) 8GB 128Gb có giá: 7,790,000đ.\nOppo Reno 8T (5G) 8GB 128GB là một smartphone tầm trung, ra mắt vào năm 2023.\nMáy sở hữu màn hình AMOLED 6.7 inch với độ phân giải Full HD+ và tần số quét 120Hz.\nĐược trang bị chip Snapdragon 695, cùng với RAM 8GB và bộ nhớ trong 128GB.\nCamera sau ba ống kính 108MP + 2MP + 2MP và camera trước 32MP cho khả năng chụp ảnh chất lượng cao.\nPin dung lượng 4800mAh hỗ trợ sạc nhanh 67W, và chạy hệ điều hành ColorOS dựa trên Android 13.\n"
+      ]
+    },
+    {
+      "tag": "oppo_10",
+      "patterns": [
+        "Thông tin về Oppo Reno 8Z (5G) 8GB 256GB",
+        "Oppo Reno 8Z (5G) 8GB 256GB",
+        "Cho tôi biết thông tin về Oppo Reno 8Z (5G) 8GB 256GB"
+      ],
+      "responses": [
+        "Oppo Reno 8Z (5G) 8GB 256GB có giá: 8,490,000đ.\nẤn tượng với diện mạo thời trang và màn hình chất lượng\nCảm nhận đầu tiên của mình khi trên tay chiếc OPPO Reno8 Z 5G là máy có thiết kế rất đẹp, từ màu sắc cho đến cách tạo hình đều làm mình hài lòng. Trong lần ra mắt lần này thì máy có 2 phiên bản màu sắc đó là vàng đồng và đen, trên tay mình đây đang là bản màu vàng đồng.\nThỏa sức nhiếp ảnh hay sáng tạo video với bộ ba camera\nĐối với dòng oppo reno từ trước đến nay, camera chắc hẳn là phần được đầu tư nhiều thời gian để nghiên cứu nhất và trên chiếc Reno8 Z cũng không là ngoại lệ. Máy sở hữu bộ 3 camera với camera chính có độ phân giải 64 MP, cảm biến xóa phông và macro có chung độ phân giải 2 MP.\nHiệu năng mạnh mẽ trong phân khúc\nTrang bị trên máy là con chip Snapdragon 695 5G, chắc hẳn nhiều bạn sẽ không đánh giá cao về hiệu năng của con chip này, nhưng thực tế thì lại khác bởi đây là con chip vừa được ra mắt vào tháng 5 năm ngoái (2021) và được thừa hưởng rất nhiều công nghệ nổi bật hơn so với các đầu chip series 7 thuộc thế hệ 2 và 3.\nThời lượng pin đáp ứng cho cả ngày dài\nBên trong máy sẽ là viên pin có dung lượng 4500 mAh, đây cũng là một dung lượng khá phổ biến ở thời điểm hiện tại, qua thời gian mình trải nghiệm ước tính thì máy cho thời gian sử dụng dao động tầm 7 - 8 tiếng."
+      ]
+    },
+    {
+      "tag": "oppo_11",
+      "patterns": [
+        "Thông tin về Oppo Reno 8 (4G) 8GB 256GB",
+        "Oppo Reno 8 (4G) 8GB 256GB",
+        "Cho tôi biết thông tin về Oppo Reno 8 (4G) 8GB 256GB"
+      ],
+      "responses": [
+        "Oppo Reno 8 (4G) 8GB 256GB có giá: 7,490,000đ.\nVẻ đẹp đến từ sự đơn giản\nOppo Reno 8 sở hữu thiết kế mỏng 7.66 mm khá ấn tượng, các cạnh được làm nhựa và thiết kế vuông vức. Màu sắc trên Reno8 cũng khá trẻ trung với 2 phiên bản màu sắc gồm vàng đồng và đen. Mặt lưng của máy được làm từ kính giúp tăng độ sang trọng cho thiết bị, cụm camera được thiết kế trong một mô-đun hình chữ nhật cùng với hai tông màu trắng đen làm thu hút mọi ánh nhìn. OPPO đã trang bị công nghệ độc quyền OPPO Glow lên mặt lưng của chiếc điện thoại này, nên khi mình sử dụng ngoài trời thì mặt lưng chuyển đổi màu sắc óng ánh rất đẹp mắt điều đó giúp mình trở nên nổi bật hơn. Mặt trước của máy được thiết kế dạng đục lỗ điều này làm tăng diện tích hiển thị trên máy, cạnh viền hai bên màn hình được làm khá mỏng, tuy nhiên phần cạnh dưới vẫn còn hơi dày nhưng trong khi sử dụng mình cũng không cảm thấy quá bất tiện."
+      ]
+    },
+    {
+      "tag": "oppo_12",
+      "patterns": [
+        "Thông tin về Oppo A77s 8GB 128GB",
+        "Oppo A77s 8GB 128GB",
+        "Cho tôi biết thông tin về Oppo A77s 8GB 128GB"
+      ],
+      "responses": [
+        "Oppo A77s 8GB 128GB có giá: 5,690,000đ.\nOppo A77s 8GB 128GB là một smartphone tầm trung, ra mắt vào năm 2022.\nMáy sở hữu màn hình IPS LCD 6.56 inch với độ phân giải HD+ và tần số quét 90Hz.\nĐược trang bị chip Qualcomm Snapdragon 680, cùng với RAM 8GB và bộ nhớ trong 128GB.\nCamera sau kép 50MP + 2MP và camera trước 8MP cho khả năng chụp ảnh tốt.\nPin dung lượng 5000mAh hỗ trợ sạc nhanh 33W, và chạy hệ điều hành ColorOS dựa trên Android 12.\n"
+      ]
+    },
+    {
+      "tag": "oppo_13",
+      "patterns": [
+        "Thông tin về Oppo A57 4GB 128GB",
+        "Oppo A57 4GB 128GB",
+        "Cho tôi biết thông tin về Oppo A57 4GB 128GB"
+      ],
+      "responses": [
+        "Oppo A57 4GB 128GB có giá: 4,190,000đ.\nOppo A57 4GB 128GB là một smartphone giá rẻ, ra mắt vào năm 2022.\nMáy sở hữu màn hình IPS LCD 6.56 inch với độ phân giải HD+ và tần số quét 60Hz.\nĐược trang bị chip MediaTek Helio G35, cùng với RAM 4GB và bộ nhớ trong 128GB.\nCamera sau kép 13MP + 2MP và camera trước 8MP cho khả năng chụp ảnh cơ bản.\nPin dung lượng 5000mAh hỗ trợ sạc nhanh 33W, và chạy hệ điều hành ColorOS dựa trên Android 12.\n"
+      ]
+    },
+    {
+      "tag": "oppo_14",
+      "patterns": [
+        "Thông tin về Oppo A17K 3GB 64GB",
+        "Oppo A17K 3GB 64GB",
+        "Cho tôi biết thông tin về Oppo A17K 3GB 64GB"
+      ],
+      "responses": [
+        "Oppo A17K 3GB 64GB có giá: 2,490,000đ.\nOppo A17K - Nổi trội trong tầm giá chỉ hơn 2 triệu\nOppo A17K là một chiếc điện thoại trong phân khúc giá rẻ với màn hình 6.56 inch HD+ và chạy trên chip MediaTek Helio G35. Máy có RAM 3GB, bộ nhớ trong 64GB, và pin 5000 mAh, đủ dùng cho cả ngày dài. Camera sau 8MP và camera trước 5MP đáp ứng nhu cầu chụp ảnh cơ bản. Đây là một trong những lựa chọn lý tưởng cho những ai yêu thích sự tiện lợi mà không cần bỏ ra quá nhiều chi phí.\n\nVì sao nên mua Oppo A17K tại VTechStore?\nĐể có thể sở hữu được những sản phẩm có chất lượng cao, “sang - xịn - mịn’’ thì bạn cần chọn lựa những đơn vị uy tín và có trách nhiệm cao."
+      ]
+    },
+    {
+      "tag": "oppo_15",
+      "patterns": [
+        "Thông tin về Oppo A16K 4GB 64GB",
+        "Oppo A16K 4GB 64GB",
+        "Cho tôi biết thông tin về Oppo A16K 4GB 64GB"
+      ],
+      "responses": [
+        "Oppo A16K 4GB 64GB có giá: 2,790,000đ.\nDòng OPPO A16K lại lần nữa chứng minh vị thế của OPPO ở phân khúc tầm trung - giá rẻ, điện thoại thông minh gây thương nhớ với vẻ ngoài nổi bật, hiệu suất và dung lượng pin ấn tượng.\nChip xử lý MediaTek Helio G35 đáp ứng đa tác vụ\nĐiện thoại trang bị bộ xử lý Helio G35 8 nhân có 4 nhân xung nhịp đạt 2.3 GHz và 4 nhân xung nhịp 1.8 GHz kết hợp phần mềm System Booster tối ưu hệ thống cho tốc độ xử lý đa nhiệm ổn định, nhanh chóng với các hoạt động thường ngày như lướt Facebook, xem video Tiktok, đọc báo,..."
+      ]
+    },
+    {
+      "tag": "oppo_16",
+      "patterns": [
+        "Thông tin về Oppo Reno 7 (5G) 8GB 256GB",
+        "Oppo Reno 7 (5G) 8GB 256GB",
+        "Cho tôi biết thông tin về Oppo Reno 7 (5G) 8GB 256GB"
+      ],
+      "responses": [
+        "Oppo Reno 7 (5G) 8GB 256GB có giá: 12,990,000đ.\nĐiện thoại OPPO Reno7 Z 5G - Siêu chụp ảnh, siêu mạnh mẽ\nThời gian qua giới công nghệ đang dần chú ý đến những chi tiết hé lộ của OPPO Reno7 Z chiếc smartphone 5G mới nhất của OPPO thuộc phân khúc tầm trung nhưng chứa đựng cấu hình không thua gì điện thoại phân khúc cao cấp sẽ khuấy động làng công nghệ trong năm 2022.\nThiết kế ấn tượng cuốn hút đa góc cạnh\nĐiện thoại OPPO Reno 7Z 5G được ra mắt thuộc dòng Reno7 series mới đây của hãng OPPO. Vì thuộc cùng \"họ hàng\" Reno7, nên máy có ngoại hình khá giống với Reno 7 (bản Trung Quốc) trước đó, với khung viền vuông dát phẳng cùng thân hình vừa tay cầm giúp làm nên chất lượng toàn bộ thân máy. Và chất liệu nguyên khối làm nên khung viền máy cũng góp phần gia tăng độ bền cho sản phẩm. Kiểu dáng của OPPO Reno7 Z 5G thể hiện nên tính linh hoạt cao. Dù được làm nên từ chất liệu bền bỉ, tổng thể thân máy lại có trọng lượng nhẹ tay giúp tạo độ thoải mái khi bạn cầm máy ngay trên tay."
+      ]
+    },
+    {
+      "tag": "oppo_17",
+      "patterns": [
+        "Thông tin về Oppo Reno 7 Z (5G) 8GB 128GB",
+        "Oppo Reno 7 Z (5G) 8GB 128GB",
+        "Cho tôi biết thông tin về Oppo Reno 7 Z (5G) 8GB 128GB"
+      ],
+      "responses": [
+        "Oppo Reno 7 Z (5G) 8GB 128GB có giá: 5,490,000đ.\nĐiện thoại OPPO Reno7 Z 5G - Siêu chụp ảnh, siêu mạnh mẽ\nThời gian qua giới công nghệ đang dần chú ý đến những chi tiết hé lộ của OPPO Reno7 Z chiếc smartphone 5G mới nhất của OPPO thuộc phân khúc tầm trung nhưng chứa đựng cấu hình không thua gì điện thoại phân khúc cao cấp sẽ khuấy động làng công nghệ trong năm 2022.\nThiết kế ấn tượng cuốn hút đa góc cạnh\nĐiện thoại OPPO Reno 7Z 5G được ra mắt thuộc dòng Reno7 series mới đây của hãng OPPO. Vì thuộc cùng \"họ hàng\" Reno7, nên máy có ngoại hình khá giống với Reno 7 (bản Trung Quốc) trước đó, với khung viền vuông dát phẳng cùng thân hình vừa tay cầm giúp làm nên chất lượng toàn bộ thân máy. Và chất liệu nguyên khối làm nên khung viền máy cũng góp phần gia tăng độ bền cho sản phẩm. Kiểu dáng của OPPO Reno7 Z 5G thể hiện nên tính linh hoạt cao. Dù được làm nên từ chất liệu bền bỉ, tổng thể thân máy lại có trọng lượng nhẹ tay giúp tạo độ thoải mái khi bạn cầm máy ngay trên tay."
+      ]
+    },
+    {
+      "tag": "oppo_18",
+      "patterns": [
+        "Thông tin về Oppo A16K 3GB 32GB",
+        "Oppo A16K 3GB 32GB",
+        "Cho tôi biết thông tin về Oppo A16K 3GB 32GB"
+      ],
+      "responses": [
+        "Oppo A16K 3GB 32GB có giá: 1,990,000đ.\nDòng OPPO A16K lại lần nữa chứng minh vị thế của OPPO ở phân khúc tầm trung - giá rẻ, điện thoại thông minh gây thương nhớ với vẻ ngoài nổi bật, hiệu suất và dung lượng pin ấn tượng.\nChip xử lý MediaTek Helio G35 đáp ứng đa tác vụ\nĐiện thoại trang bị bộ xử lý Helio G35 8 nhân có 4 nhân xung nhịp đạt 2.3 GHz và 4 nhân xung nhịp 1.8 GHz kết hợp phần mềm System Booster tối ưu hệ thống cho tốc độ xử lý đa nhiệm ổn định, nhanh chóng với các hoạt động thường ngày như lướt Facebook, xem video Tiktok, đọc báo,..."
+      ]
+    },
+    {
+      "tag": "oppo_19",
+      "patterns": [
+        "Thông tin về Oppo A95 8GB 128GB",
+        "Oppo A95 8GB 128GB",
+        "Cho tôi biết thông tin về Oppo A95 8GB 128GB"
+      ],
+      "responses": [
+        "Oppo A95 8GB 128GB có giá: 5,490,000đ.\nMàn hình Super AMOLED FullHD+ 6.43 inches\nĐầu tiên, không thể không kể đến dòng điện thoại Oppo A95 đã có sự cải tiến đặc biệt rõ ràng do với các “đàn anh” trước đây khi hãng đã nâng cấp màn hình từ AMOLED lên thành Super AMOLED, điều này đã mang lại cho màn hình có độ hiển thị màu sắc rực rỡ nịnh mắt, có độ tương phản cao hơn cả AMOLED gấp 2 lần. Đặc biệt Super AMOLED có thể giảm độ phản xạ ánh sáng mặt trời đến 80%, sáng hơn 20% của máy giúp bảo vệ đôi mắt của bạn trong nhiều giờ liền sử dụng kể cả ngày hay đêm. Bên cạnh đó, màn hình Super Amoled còn giúp tiết kiệm hơn 20% năng lượng điện năng tiêu thụ so với màn hình thông thường.  Với công nghệ màn hình mở góc rộng và độ phân giải cao (1080 x 2400 Pixels), Oppo A95 5G giúp khách hàng có thể xem được từng chi tiết sống động, chân thật nhất dưới từng lớp kính và mang lại những trải nghiệm tối ưu cho khách hàng.\nThiết kế mặt kính nổi bật, ấn tượng\nCũng như dòng trước đó, hãng đã Oppo A95 tiếp tục sở hữu mặt lưng bằng chất liệu thủy tinh có độ bền cao, mặt trước được bảo vệ bằng lớp kính cường lực giúp cho bạn an tâm hơn khi có sự va chạm trong quá trình sử dụng."
+      ]
+    },
+    {
+      "tag": "oppo_20",
+      "patterns": [
+        "Thông tin về Oppo A74 8GB 128GB",
+        "Oppo A74 8GB 128GB",
+        "Cho tôi biết thông tin về Oppo A74 8GB 128GB"
+      ],
+      "responses": [
+        "Oppo A74 8GB 128GB có giá: 4,490,000đ.\nOPPO A74 4G là sản phẩm điện thoại thông minh được trang bị camera AI hiện đại, dung lượng pin khủng cùng với thiết kế kiểu dáng vô cùng thời thượng. Đây là một thiết bị di động lý tưởng cho người tiêu dùng Việt Nam.\nDung lượng pin khủng 5000mAh đi kèm sạc siêu nhanh 33W\nSmartphone có dung lượng pin lớn 5000mAh cho cả ngày dài sử dụng, đi kèm với chúng là sạc siêu nhanh 33W có khả năng làm đầy pin đến 54% chỉ trong 30 phút. Việc tiêu hao năng lượng pin sẽ còn phụ thuộc vào nhiều yếu tố khác nhau như thời lượng sử dụng điện thoại của người dùng. Tuy nhiên, với dung lượng pin đó thì OPPO A74 4G có thể kéo dài cả ngày sử dụng liên tục ngay cả khi sử dụng vào những mục đích giải trí như chơi game.\n\nThiết kế màn hình đục lỗ AMOLED FHD+ sống động và chân thực\nOPPO A74 có màn hình AMOLED 6,43inch sống động và chân thực với độ phân giải 2400 x 1080pixel và mật độ điểm ảnh 409ppi."
+      ]
+    },
+    {
+      "tag": "samsung_1",
+      "patterns": [
+        "Thông tin về Samsung Galaxy S24 Ultra (5G) 12GB 256GB",
+        "Samsung Galaxy S24 Ultra (5G) 12GB 256GB",
+        "Cho tôi biết thông tin về Samsung Galaxy S24 Ultra (5G) 12GB 256GB"
+      ],
+      "responses": [
+        "Samsung Galaxy S24 Ultra (5G) 12GB 256GB có giá: 22,490,000đ.\nSamsung Galaxy S24 Ultra - Kỷ nguyên mới của công nghệ AI\nSamsung Galaxy S24 Ultra là dòng sản phẩm mới được nhà Samsung ra mắt vào đầu năm 2024. Với rất nhiều tính năng vượt trội so với các thế hệ trước, hứa hẹn mang lại trải nghiệm hết sức tuyệt vời cho người sử dụng. Samsung đã trang bị cho dòng sản phẩm này công nghệ Galaxy AI cùng thiết kế sang trọng với khung viền Titan đẳng cấp. Cụ thể từng tính năng như thế nào thì hãy cùng VTechStore tìm hiểu qua bài viết dưới đây nhé.\n\nVì sao nên mua Samsung Galaxy S24 Ultra tại VTechStore?\nSamsung Galaxy S24 Ultra hiện đang làm mưa làm gió trên thị trường, với mức độ quan tâm cực kỳ lớn từ người dùng. Để đáp ứng nhu cầu thì ngày càng nhiều đơn vị bán lẻ đua nhau cung cấp dòng sản phẩm này."
+      ]
+    },
+    {
+      "tag": "samsung_2",
+      "patterns": [
+        "Thông tin về Samsung Galaxy S23 Ultra (5G) 8GB 256GB",
+        "Samsung Galaxy S23 Ultra (5G) 8GB 256GB",
+        "Cho tôi biết thông tin về Samsung Galaxy S23 Ultra (5G) 8GB 256GB"
+      ],
+      "responses": [
+        "Samsung Galaxy S23 Ultra (5G) 8GB 256GB có giá: 19,990,000đ.\nSamsung Galaxy S23 Ultra - Đây không chỉ là Smartphone, mà còn là siêu phẩm\nSamsung galaxy S23 Ultra đã chính thức được giới thiệu với hàng loạt tính năng cũng như công nghệ nổi bật, có thể thấy thì đây được xem là một trong những sản phẩm đột phá về mọi mặt đến từ nhà Samsung trong năm 2023 nhằm hướng đến vị trí thương hiệu hàng đầu trong ngành. \nThiết kế sang trọng cùng những đường nét tinh xảo\nGalaxy S23 Ultra thì sẽ vẫn sử dụng lối thiết kế bo cong ở mặt lưng cùng kiểu màn hình vô cực ở hai bên, thân máy thì sẽ được từ chất liệu cao cấp. Thiết bị trông cực kì mạnh mẽ, cá tính hơn và đồng thời mang đến khả năng chống xước, chống bám vân tay, hạn chế bám bụi tốt.  Thiết kế cụm camera sau trên Galaxy S23 Ultra được thiết kế đơn giản nhưng tinh tế.\n \nGalaxy S23 Ultra sở hữu màn hình chất lượng\nMàn hình của điện thoại có kích thước 6.8 inch cùng với tấm nền Dynamic AMOLED 2X có khả năng hiển thị hình ảnh một cách chân thật và rực rỡ, mang đến cho người dùng không gian màn ảnh rộng chỉ trong tầm tay - thỏa sức trải nghiệm."
+      ]
+    },
+    {
+      "tag": "samsung_3",
+      "patterns": [
+        "Thông tin về Samsung Galaxy S23 (5G) 8GB 128GB",
+        "Samsung Galaxy S23 (5G) 8GB 128GB",
+        "Cho tôi biết thông tin về Samsung Galaxy S23 (5G) 8GB 128GB"
+      ],
+      "responses": [
+        "Samsung Galaxy S23 (5G) 8GB 128GB có giá: 12,990,000đ.\nSamsung Galaxy S23 - Siêu phẩm nằm gọn trong lòng bàn tay\nSamsung Galaxy S23 có thể xem là cái tên mở màn cho dòng điện thoại cao cấp được nhà Samsung giới thiệu vào dịp đầu năm 2023, kể từ lúc chính thức ra mắt máy lại nhận được khá nhiều sự quan tâm với hàng loạt thông tin cấu hình hết sức nổi bật như con chip hàng đầu Qualcomm cùng bộ camera siêu chất lượng. \nGalaxy S23 sở hữu lối thiết kế sang trọng\nNăm nay, S23 Series vẫn sẽ tiếp tục thừa hưởng kiểu dáng quen thuộc đến từ thế hệ tiền nhiệm, vẫn là mặt lưng kính được bao bọc bởi một bộ khung kim loại và bo tròn ở các góc, đi kèm với đó là cách tạo hình phẳng ở các mặt làm cho máy trở nên sang trọng và cực kỳ hiện đại.  Tuy nhiên, thiết kế năm nay cũng có một vài thay đổi nhỏ ở phần camera, các ống kính giờ đây được sắp xếp riêng lẻ vô cùng độc đáo. Bên cạnh đó thì lần ra mắt này Samsung còn cho ra thêm nhiều màu sắc mới để làm cho sự lựa chọn của người dùng trở nên phong phú hơn.\nHiệu năng vượt trội với chipset Qualcom\nSnapdragon 8 Gen 2 - con chip đứng đầu ở thời điểm hiện tại đã được trang bị trên dòng Galaxy S23, với hiệu năng cực khủng để giúp bạn có thể cân mọi loại tựa game, chỉnh sửa hình ảnh, video hay cùng lúc dùng các tác vụ nặng.  Về hệ điều hành thì máy sẽ chạy trên Android 13 với những thay đổi mạnh mẽ về phần giao diện, mang lại cho người dùng những trải nghiệm mới lạ khi sử dụng cùng sự nâng cấp về mặt tối ưu phần mềm và tăng cường khả năng bảo mật dữ liệu."
+      ]
+    },
+    {
+      "tag": "samsung_4",
+      "patterns": [
+        "Thông tin về Samsung Galaxy A35 (5G) 8GB 128GB",
+        "Samsung Galaxy A35 (5G) 8GB 128GB",
+        "Cho tôi biết thông tin về Samsung Galaxy A35 (5G) 8GB 128GB"
+      ],
+      "responses": [
+        "Samsung Galaxy A35 (5G) 8GB 128GB có giá: 6,790,000đ.\nSamsung vừa tung ra thị trường với Samsung Galaxy A có tích hợp tính năng AI mới, mở ra kỷ nguyên mới với Galaxy AI cao cấp. Đây chính là bước đánh dấu tên tuổi của Samsung trên thị trường công nghệ điện thoại. Vậy trước hết, hãy cùng CLICKBUY tìm hiểu về Samsung Galaxy A35 qua bài viết phía dưới nhé.\n\nVì sao nên mua Samsung Galaxy A35 tại VTechStore?\n\n\nChất lượng đảm bảo: VTechStore là một trong những địa chỉ mua sắm uy tín và có uy tín hàng đầu tại Việt Nam. Với hơn 13 năm kinh nghiệm trong ngành, VTechStore cam kết cung cấp các sản phẩm chính hãng, đảm bảo chất lượng và tuân thủ các tiêu chuẩn cao nhất về sản phẩm.\n\n\nĐa dạng mẫu mã và thương hiệu: VTechStore cung cấp một loạt các mẫu điện thoại Samsung Galaxy A35 và các thương hiệu khác, đảm bảo khách hàng có nhiều sự lựa chọn phù hợp với nhu cầu và ngân sách của mình."
+      ]
+    },
+    {
+      "tag": "samsung_5",
+      "patterns": [
+        "Thông tin về Samsung Galaxy A55 (5G) 8GB 128GB",
+        "Samsung Galaxy A55 (5G) 8GB 128GB",
+        "Cho tôi biết thông tin về Samsung Galaxy A55 (5G) 8GB 128GB"
+      ],
+      "responses": [
+        "Samsung Galaxy A55 (5G) 8GB 128GB có giá: 8,990,000đ.\nSamsung lại tiếp tục đánh dấu tên tuổi tiên phong công nghệ mới của mình trên thị trường smartphone cao cấp nhưng giá cả nằm trong phân khúc tầm trung. Với sự đánh dấu tên tuổi này trên dòng sản phẩm Galaxy A, cụ thể là Samsung Galaxy A55 (5G) đã được tích hợp thêm tính năng công nghệ AI đã rất thành công ở các sản phẩm chào sân vào đầu năm vừa rồi. Vậy hãy cùng VTechStore tìm hiểu về Samsung Galaxy A55 qua bài viết phía dưới nhé.\n\nVì sao nên mua Samsung Galaxy A55 tại VTechStore?\n1. Chất lượng đảm bảo:\nVTechStore là một trong những chuỗi cửa hàng bán lẻ điện thoại di động uy tín hàng đầu tại Việt Nam, với hơn 13 năm kinh nghiệm trong ngành, cam kết cung cấp các sản phẩm chính hãng, đảm bảo chất lượng và tuân thủ các tiêu chuẩn cao nhất về sản phẩm. Máy sẽ được cam kết chính hãng, nguyên hộp đầy đủ phụ kiện từ nhà sản xuất."
+      ]
+    },
+    {
+      "tag": "samsung_6",
+      "patterns": [
+        "Thông tin về Samsung Galaxy A25 (5G) 6GB 128GB",
+        "Samsung Galaxy A25 (5G) 6GB 128GB",
+        "Cho tôi biết thông tin về Samsung Galaxy A25 (5G) 6GB 128GB"
+      ],
+      "responses": [
+        "Samsung Galaxy A25 (5G) 6GB 128GB có giá: 5,790,000đ.\nGalaxy A25 sảm phẩm mới của ngành công nghệ điện thoại di động từ nhà Samsung\nTiếp nối series Galaxy A, Samsung tiếp tục đem đến cho thị trường công nghệ một sản phẩm  mới. Samsung Galaxy A25 phiên bản nâng cấp mới với nhiều cải tiến mạnh mẽ về hiệu năng cũng như thiết kế. Để biết sản phẩm này đã được nâng cấp như thế nào hay có sự khác biệt gì, hãy cùng CLICKBUY tìm hiểu qua bài viết này nhé.\nThiết kế tinh tế, màu sắc ấn tượng trendy\nSamsung Galaxy A25 mang một thiết kế thỏa mãn mọi ánh nhìn với sự tối giản nhưng vẫn giữ được sự nguyên bản. Kế thừa kiểu dáng ngoại hình vuông, bo góc tròn ở 4 góc đặc trưng của dòng Galaxy A, thiết kế viền nổi Key Island tinh xảo của Galaxy A25 vô cùng tỏa sáng hiện đại và bắt mắt. Mặt lưng được Samsung làm một lớp mờ phủ độ bóng thể hiện cảm giác sang trọng, sự hoàn mỹ trong phong cách kết hợp cùng tính năng hiện đại."
+      ]
+    },
+    {
+      "tag": "samsung_7",
+      "patterns": [
+        "Thông tin về Samsung Galaxy A15 (4G) 8GB 128GB",
+        "Samsung Galaxy A15 (4G) 8GB 128GB",
+        "Cho tôi biết thông tin về Samsung Galaxy A15 (4G) 8GB 128GB"
+      ],
+      "responses": [
+        "Samsung Galaxy A15 (4G) 8GB 128GB có giá: 4,250,000đ.\nSamsung Galaxy A15 là phiên bản nâng cấp mới, vừa được nhà sản xuất công nghệ hàng đầu Samsung cho ra mắt trong năm nay. Đây là một phiên bản kế nhiệm đã được nâng cấp của Galaxy A14 nhà Samsung. Để biết thêm về sản phẩm, cùng CLICKBUY tìm hiểu thêm qua bài viết bên dưới nhé.\nVì sao nên mua Samsung Galaxy A15 tại VTechStore?\n1.Chất lượng đảm bảo: Là địa chỉ mua sắm được nhiều người tin tưởng, VTechStore tự hào mang lại những sản phẩm chính hãng với chất lượng cao. Với hơn 13 năm kinh nghiệm, VTechStore cam kết cung cấp sản phẩm đúng như mô tả, tuân thủ nghiêm ngặt các tiêu chuẩn chất lượng."
+      ]
+    },
+    {
+      "tag": "samsung_8",
+      "patterns": [
+        "Thông tin về Samsung Galaxy A05S (4G) 4GB 128GB",
+        "Samsung Galaxy A05S (4G) 4GB 128GB",
+        "Cho tôi biết thông tin về Samsung Galaxy A05S (4G) 4GB 128GB"
+      ],
+      "responses": [
+        "Samsung Galaxy A05S (4G) 4GB 128GB có giá: 3,090,000đ.\nSamsung Galaxy A05S (4G) 4GB 128GB là một smartphone giá rẻ, ra mắt vào năm 2023.\nMáy sở hữu màn hình PLS LCD 6.5 inch với độ phân giải HD+ và tần số quét 60Hz.\nĐược trang bị chip Qualcomm Snapdragon 680, cùng với RAM 4GB và bộ nhớ trong 128GB có thể mở rộng qua thẻ nhớ microSD.\nCamera sau ba ống kính 50MP + 2MP + 2MP và camera trước 8MP cho khả năng chụp ảnh tốt.\nPin dung lượng 5000mAh hỗ trợ sạc nhanh 25W, và chạy hệ điều hành One UI dựa trên Android 13.\n"
+      ]
+    },
+    {
+      "tag": "samsung_9",
+      "patterns": [
+        "Thông tin về Samsung Galaxy A34 (5G) 8GB 128GB",
+        "Samsung Galaxy A34 (5G) 8GB 128GB",
+        "Cho tôi biết thông tin về Samsung Galaxy A34 (5G) 8GB 128GB"
+      ],
+      "responses": [
+        "Samsung Galaxy A34 (5G) 8GB 128GB có giá: 5,890,000đ.\nSamsung Galaxy A34 (5G) - Thiết kế năng động, màu sắc trẻ trung\nSamsung Galaxy A34 sở hữu thiết kế đẹp và hiện đại với mặt lưng nhẵn làm từ nhựa cao cấp, màn hình lớn và cụm camera được bố trí theo một hàng dọc bắt mắt. Do sở hữu thiết kế từ nhựa nên máy sẽ có trọng lượng nhẹ hơn giúp mang lại cảm giác cầm nắm nhẹ nhàng.  Phần màn hình sẽ được làm theo kiểu giọt nước cùng viền màn hình mỏng, điều này mang lại cảm giác cầm nắm hết sức thoải mái và dễ chịu.\nSamsung A34 sở hữu màn hình rực rỡ, màu sắc chân thật\nSản phẩm được trang bị màn hình Super AMOLED kích thước 6.6 inch với phần phần hình notch dạng chữ U, kèm theo đó là độ phân giải Full HD+ giúp tái hiện hình ảnh có màu sắc được tái tạo chuẩn xác với độ chi tiết cao để tái hiện nội dung một cách chân thực.  Ngoài ra, máy cũng sẽ có tần số quét cao lên đến 120Hz giúp các thao tác vuốt chạm được phản hồi nhanh hơn, nâng tầm trải nghiệm thị giác của thiết bị."
+      ]
+    },
+    {
+      "tag": "samsung_10",
+      "patterns": [
+        "Thông tin về Samsung Galaxy A05 (4G) 4GB 64GB",
+        "Samsung Galaxy A05 (4G) 4GB 64GB",
+        "Cho tôi biết thông tin về Samsung Galaxy A05 (4G) 4GB 64GB"
+      ],
+      "responses": [
+        "Samsung Galaxy A05 (4G) 4GB 64GB có giá: 2,390,000đ.\nSamsung A05 tại VTechStore: Sự Lựa Chọn Tuyệt Vời cho Dòng Điện Thoại Giá Rẻ\nSamsung A05, một trong những thiết bị thuộc dòng A series giá rẻ của Samsung, đã nhận được nhiều sự chú ý nhờ vào các cải tiến mà Samsung đã thực hiện. Dù có một số hạn chế, nhưng tổng thể, A05 vẫn là một lựa chọn đáng giá, đặc biệt khi mua tại VTechStore - một địa chỉ bán lẻ các sản phẩm Samsung uy tín.\n \nƯu Điểm của Samsung A05:\n\nThiết Kế Lớn và Đẹp Mắt: Mặc dù có kích thước lớn gây khó khăn khi sử dụng bằng một tay, nhưng màn hình lớn của A05 lại mang lại không gian hiển thị rộng rãi, lý tưởng cho việc xem video và chơi game.\nHiệu Suất Ổn Định: Với việc sử dụng chip Helio G85, A05 cung cấp hiệu suất tốt trong phân khúc giá rẻ, đặc biệt là khi so sánh với người tiền nhiệm A04.\nCamera Chất Lượng Cao: Camera chính 50MP cung cấp chất lượng ảnh tốt trong điều kiện ánh sáng đủ. Camera tự sướng 8MP và khả năng quay video cũng đáp ứng nhu cầu cơ bản."
+      ]
+    },
+    {
+      "tag": "samsung_11",
+      "patterns": [
+        "Thông tin về Samsung Galaxy A24 (4G) 6GB 128GB",
+        "Samsung Galaxy A24 (4G) 6GB 128GB",
+        "Cho tôi biết thông tin về Samsung Galaxy A24 (4G) 6GB 128GB"
+      ],
+      "responses": [
+        "Samsung Galaxy A24 (4G) 6GB 128GB có giá: 4,090,000đ.\nSamsung Galaxy A24 - Thiết kế trẻ trung, hiệu năng ấn tượng\nMàn hình hiển thị sắc nét \nSamsung Galaxy A24 có màn hình kích thước lên đên 6.5'', được hỗ trợ độ phân giải Full HD+ (1080 x 2340 Pixels), mọi chi tiết đều được tái hiện lại một cách sắc nét, cảm giác khi chơi game hay xem phim cũng trở nên chân thực và sống động. Máy được trang bị tấm nền Super AMOLED mang lại độ sâu cho nội dung hiển thị.  Với tần số quét 90Hz, máy mang lại cảm giác vuốt chạm mượt mà, không bị giật lag khung hình trong quá trinh sử dụng.\nSamsung A24 tích hợp chipset gaming từ nhà MediaTek\nGalaxy A24 được trang bị con chip Helio G99 đến từ nhà MediaTek, hoạt động với mức xung nhịp tối đa có thể đạt được là 2.2 GHz, kết hợp cùng GPU Mali-G57 cung cấp hiệu suất đồ họa mạnh mẽ."
+      ]
+    },
+    {
+      "tag": "samsung_12",
+      "patterns": [
+        "Thông tin về Samsung Galaxy A05 (4G) 4GB 128GB",
+        "Samsung Galaxy A05 (4G) 4GB 128GB",
+        "Cho tôi biết thông tin về Samsung Galaxy A05 (4G) 4GB 128GB"
+      ],
+      "responses": [
+        "Samsung Galaxy A05 (4G) 4GB 128GB có giá: 2,590,000đ.\nSamsung A05 tại VTechStore: Sự Lựa Chọn Tuyệt Vời cho Dòng Điện Thoại Giá Rẻ\nSamsung A05, một trong những thiết bị thuộc dòng A series giá rẻ của Samsung, đã nhận được nhiều sự chú ý nhờ vào các cải tiến mà Samsung đã thực hiện. Dù có một số hạn chế, nhưng tổng thể, A05 vẫn là một lựa chọn đáng giá, đặc biệt khi mua tại VTechStore - một địa chỉ bán lẻ các sản phẩm Samsung uy tín.\n \nƯu Điểm của Samsung A05:\n\nThiết Kế Lớn và Đẹp Mắt: Mặc dù có kích thước lớn gây khó khăn khi sử dụng bằng một tay, nhưng màn hình lớn của A05 lại mang lại không gian hiển thị rộng rãi, lý tưởng cho việc xem video và chơi game.\nHiệu Suất Ổn Định: Với việc sử dụng chip Helio G85, A05 cung cấp hiệu suất tốt trong phân khúc giá rẻ, đặc biệt là khi so sánh với người tiền nhiệm A04.\nCamera Chất Lượng Cao: Camera chính 50MP cung cấp chất lượng ảnh tốt trong điều kiện ánh sáng đủ. Camera tự sướng 8MP và khả năng quay video cũng đáp ứng nhu cầu cơ bản."
+      ]
+    },
+    {
+      "tag": "samsung_13",
+      "patterns": [
+        "Thông tin về Samsung Galaxy A23 (5G) 4GB 128GB",
+        "Samsung Galaxy A23 (5G) 4GB 128GB",
+        "Cho tôi biết thông tin về Samsung Galaxy A23 (5G) 4GB 128GB"
+      ],
+      "responses": [
+        "Samsung Galaxy A23 (5G) 4GB 128GB có giá: 4,190,000đ.\nSamsung A23 (5G) - Thiết kế trẻ trung, hiệu năng ấn tượng\nPhong cách thiết kế mới\nSamsung A23 có màn hình 6,6 inch với rãnh hình giọt nước chứa camera selfie. Mặt sau của thiết bị được làm bằng chất liệu nhựa hoàn thiện với bộ bốn camera cùng đèn flash ở góc trên bên trái và logo Samsung tao nhã nằm ở phía dưới.\nSamsung A23 sở hữu màn hình chất lượng\nVề phần màn hình, sản phẩm được trang bị màn hình TFT LCD kích thước lớn tới 6.6 inch. Bên cạnh đó là độ phân giải Full HD+ 720 x 1600 pixels, mật độ điểm ảnh là 274 ppi và tỷ lệ khung hình lên đến 20 : 9 cho những trải nghiệm hình ảnh đã mắt nhất.  Điện thoại đi kèm 4 màu sắc pastel vô cùng thời thượng đó là xanh dương, hồng, trắng và đen."
+      ]
+    },
+    {
+      "tag": "samsung_14",
+      "patterns": [
+        "Thông tin về Samsung Galaxy Z Fold5 12GB 256GB",
+        "Samsung Galaxy Z Fold5 12GB 256GB",
+        "Cho tôi biết thông tin về Samsung Galaxy Z Fold5 12GB 256GB"
+      ],
+      "responses": [
+        "Samsung Galaxy Z Fold5 12GB 256GB có giá: 27,990,000đ.\nSamsung Galaxy Z Fold5 - Kiệt tác điện thoại gập\nCùng với Galaxy Z Flip5, Galaxy Z Fold5 cũng đã được Samsung trình làng trong sự kiện Unpacked 2023. Vẫn thiết kế như người tiền nhiệm, tuy nhiên Galaxy Z Fold5 vẫn có những nâng cấp đáng giá mang lại trải nghiệm tốt hơn cũng như độ bền của sản phẩm được cải thiện đáng kể.\nThiết kế sang trọng\nGalaxy Z Fold5 - vẫn thiết kế gập mở như một cuốn sách và phía sau máy là bộ ba ống kính camera được đặt dọc. Với kích thước nhỏ gọn khi gập lại, chiếc máy trở nên dễ dàng mang theo và cất giữ trong túi áo hay túi xách của bạn. Khi mở ra, Z Fold5 trở thành một chiếc tablet có màn hình to, mang đến trải nghiệm sử dụng rộng lớn và ấn tượng.\n\nSamsung cũng đã tinh chỉnh một vài điểm như các góc được bo một cách mềm mại hơn, giúp người dùng cầm nắm thoải mái không bị cấn và tăng tính linh động cho sản phẩm."
+      ]
+    },
+    {
+      "tag": "samsung_15",
+      "patterns": [
+        "Thông tin về Samsung Galaxy Z Flip5 8GB 512GB",
+        "Samsung Galaxy Z Flip5 8GB 512GB",
+        "Cho tôi biết thông tin về Samsung Galaxy Z Flip5 8GB 512GB"
+      ],
+      "responses": [
+        "Samsung Galaxy Z Flip5 8GB 512GB có giá: 15,490,000đ.\nSamsung Galaxy Z Flip5 - Sức mạnh của điện thoại gập\nVậy là bộ đôi siêu phẩm Samsung Galaxy Z Flip5 | Z Fold5 đã chính thức ra mắt trên toàn thế giới. Cả 2 siêu phẩm này đã nhận được rất nhiều đánh giá từ các chuyên gia về thiết kế cũng như những tính năng mà sản phẩm nay mang lại. Với nhiều nâng cấp mới từ hiệu năng cho đến phần mềm, các thiết bị sẽ mang đến một cho người dùng cảm giác trải nghiệm tuyệt vời nhất\nVẻ ngoài mới chuẩn cá tính\nSamsung Galaxy Z Flip5 tiếp tục theo đuổi phong cách gập độc đáo, thứ đã trở thành thương hiệu của dòng sản phẩm \"Z Flip\". Với thiết kế nhỏ gọn và hình dáng vỏ sò khi gập lại, chiếc điện thoại này rất dễ dàng cất đi trong túi áo hoặc túi xách của bạn.  Sản phẩm vẫn được sản xuất từ các chất liệu cao cấp như kim loại và kính. Khung bên ngoài được làm bằng Armor Aluminum chắc chắn, mang đến sự cứng cáp và sang trọng cho thiết bị."
+      ]
+    },
+    {
+      "tag": "samsung_16",
+      "patterns": [
+        "Thông tin về Samsung Galaxy A24 (4G) 8GB 128GB",
+        "Samsung Galaxy A24 (4G) 8GB 128GB",
+        "Cho tôi biết thông tin về Samsung Galaxy A24 (4G) 8GB 128GB"
+      ],
+      "responses": [
+        "Samsung Galaxy A24 (4G) 8GB 128GB có giá: 4,490,000đ.\nSamsung Galaxy A24 - Thiết kế trẻ trung, hiệu năng ấn tượng\nMàn hình hiển thị sắc nét \nSamsung Galaxy A24 có màn hình kích thước lên đên 6.5'', được hỗ trợ độ phân giải Full HD+ (1080 x 2340 Pixels), mọi chi tiết đều được tái hiện lại một cách sắc nét, cảm giác khi chơi game hay xem phim cũng trở nên chân thực và sống động. Máy được trang bị tấm nền Super AMOLED mang lại độ sâu cho nội dung hiển thị.  Với tần số quét 90Hz, máy mang lại cảm giác vuốt chạm mượt mà, không bị giật lag khung hình trong quá trinh sử dụng.\nSamsung A24 tích hợp chipset gaming từ nhà MediaTek\nGalaxy A24 được trang bị con chip Helio G99 đến từ nhà MediaTek, hoạt động với mức xung nhịp tối đa có thể đạt được là 2.2 GHz, kết hợp cùng GPU Mali-G57 cung cấp hiệu suất đồ họa mạnh mẽ."
+      ]
+    },
+    {
+      "tag": "samsung_17",
+      "patterns": [
+        "Thông tin về Samsung Galaxy S24 (5G) 8GB 256GB",
+        "Samsung Galaxy S24 (5G) 8GB 256GB",
+        "Cho tôi biết thông tin về Samsung Galaxy S24 (5G) 8GB 256GB"
+      ],
+      "responses": [
+        "Samsung Galaxy S24 (5G) 8GB 256GB có giá: 14,590,000đ.\nSiêu phẩm mới được tình làng mở ra kỷ nguyên mới của công nghệ AI\nSamsung vừa tung ra thị trường với Samsung Galaxy S24 Series với 3 phiên bản: S24/S24 Plus/ S24 Ultra mở ra kỷ nguyên mới với Galaxy AI cao cấp. Đây chính là bước đánh dấu tên tuổi của Samsung trên thị trường công nghệ điện thoại. Vậy trước hết, hãy cùng CLICKBUY tìm hiểu về Samsung Galaxy S24 qua bài viết phía dưới nhé.\nThiết kế ấn tượng đến từng chi tiết\nSamsung Galaxy S24, có thiết kế nút nguồn và nút giảm âm lượng ở phần cạnh máy, giúp người dùng dễ dàng mở máy cũng như sử dụng tăng chỉnh âm lượng đơn giản hơn tùy nhu cầu người sử dụng. \n\nMàu sắc bắt mắt\nVới thiết kế mỏng và được bo tròn nhẹ ở 4 góc, phần sau được làm từ kính cường lực có phủ bởi lớp nhám, Samsung Galaxy S24 giúp người dùng khi sử dụng cảm thấy nhẹ nhàng nhưng vẫn có cảm giác chắc chắn khi cầm nắm mà không bị để lại dấu vân tay. \nMàn hình di động cỡ lớn nâng tầm trải nghiệm\nSamsung Galaxy S24, với kích thước màn hình 6."
+      ]
+    },
+    {
+      "tag": "samsung_18",
+      "patterns": [
+        "Thông tin về Samsung Galaxy S24 Plus (5G) 12GB 256GB",
+        "Samsung Galaxy S24 Plus (5G) 12GB 256GB",
+        "Cho tôi biết thông tin về Samsung Galaxy S24 Plus (5G) 12GB 256GB"
+      ],
+      "responses": [
+        "Samsung Galaxy S24 Plus (5G) 12GB 256GB có giá: 16,990,000đ.\nĐón chào kỷ nguyên mới AI với điện thoại Samsung Galaxy S24 Series\nNhà sản xuất công nghệ Samsung vừa trình làng Series Samsung Galaxy S24 với bộ 3 phiên bản: S24/ S24+ (Plus)/ S24 Ultra. Ở siêu phẩm lần này Samsung đã trang bị công nghệ AI cho dòng điện thoại mới này như nào? Cùng CLICKBUY tìm hiểu về bản Samsung Galaxy S24 Plus qua bài viết bên dưới nhé. \nẤn tượng trong từng chi tiết của thiết kế\nSamsung Galaxy S24 Plus, Samsung đã thiết kế nguyên khối và được phủ lớp Satin trên bề mặt sự mềm mịn, láng bóng mang đến trải nghiệm mượt mà. Màu sắc được lấy cảm hứng từ các màu sắc của khoáng sản quý giá trong tự nhiên để phục vụ nhu cầu thẩm mỹ của người dùng.\n\nThiết kế màu sắc ấn tượng\nVới thiết kế mỏng và được bo tròn nhẹ ở 4 góc, phần sau được làm từ kính cường lực có phủ bởi lớp nhám, Samsung Galaxy S24 Plus giúp người dùng khi sử dụng cảm thấy nhẹ nhàng nhưng vẫn có cảm giác chắc chắn khi cầm nắm mà không bị để lại dấu vân tay. \nThiết kế đường viền siêu mỏng đem trải nghiệm màn hình cỡ lớn \nSở hữu thiết kế phần viền siêu mỏng với việc thiết kế màn hình S24+ (Plus) với màn hình 6."
+      ]
+    },
+    {
+      "tag": "samsung_19",
+      "patterns": [
+        "Thông tin về Samsung Galaxy Z Flip5 8GB 256GB",
+        "Samsung Galaxy Z Flip5 8GB 256GB",
+        "Cho tôi biết thông tin về Samsung Galaxy Z Flip5 8GB 256GB"
+      ],
+      "responses": [
+        "Samsung Galaxy Z Flip5 8GB 256GB có giá: 14,590,000đ.\nSamsung Galaxy Z Flip5 - Sức mạnh của điện thoại gập\nVậy là bộ đôi siêu phẩm Samsung Galaxy Z Flip5 | Z Fold5 đã chính thức ra mắt trên toàn thế giới. Cả 2 siêu phẩm này đã nhận được rất nhiều đánh giá từ các chuyên gia về thiết kế cũng như những tính năng mà sản phẩm nay mang lại. Với nhiều nâng cấp mới từ hiệu năng cho đến phần mềm, các thiết bị sẽ mang đến một cho người dùng cảm giác trải nghiệm tuyệt vời nhất\nVẻ ngoài mới chuẩn cá tính\nSamsung Galaxy Z Flip5 tiếp tục theo đuổi phong cách gập độc đáo, thứ đã trở thành thương hiệu của dòng sản phẩm \"Z Flip\". Với thiết kế nhỏ gọn và hình dáng vỏ sò khi gập lại, chiếc điện thoại này rất dễ dàng cất đi trong túi áo hoặc túi xách của bạn.  Sản phẩm vẫn được sản xuất từ các chất liệu cao cấp như kim loại và kính. Khung bên ngoài được làm bằng Armor Aluminum chắc chắn, mang đến sự cứng cáp và sang trọng cho thiết bị."
+      ]
+    },
+    {
+      "tag": "samsung_20",
+      "patterns": [
+        "Thông tin về Samsung Galaxy S23 Ultra (5G) 12GB 512GB",
+        "Samsung Galaxy S23 Ultra (5G) 12GB 512GB",
+        "Cho tôi biết thông tin về Samsung Galaxy S23 Ultra (5G) 12GB 512GB"
+      ],
+      "responses": [
+        "Samsung Galaxy S23 Ultra (5G) 12GB 512GB có giá: 24,990,000đ.\nSamsung Galaxy S23 Ultra – Đây không chỉ là Smartphone, mà còn là siêu phẩm\nSamsung galaxy S23 Ultra đã chính thức được giới thiệu với hàng loạt tính năng cũng như công nghệ nổi bật, có thể thấy thì đây được xem là một trong những sản phẩm đột phá về mọi mặt đến từ nhà Samsung trong năm 2023 nhằm hướng đến vị trí thương hiệu hàng đầu trong ngành. \nThiết kế sang trọng cùng những đường nét tinh xảo\nGalaxy S23 Ultra thì sẽ vẫn sử dụng lối thiết kế bo cong ở mặt lưng cùng kiểu màn hình vô cực ở hai bên, thân máy thì sẽ được từ chất liệu cao cấp. Thiết bị trông cực kì mạnh mẽ, cá tính hơn và đồng thời mang đến khả năng chống xước, chống bám vân tay, hạn chế bám bụi tốt.  Thiết kế cụm camera sau trên Galaxy S23 Ultra được thiết kế đơn giản nhưng tinh tế.\n \nGalaxy S23 Ultra sở hữu màn hình chất lượng\nMàn hình của điện thoại có kích thước 6.8 inch cùng với tấm nền Dynamic AMOLED 2X có khả năng hiển thị hình ảnh một cách chân thật và rực rỡ, mang đến cho người dùng không gian màn ảnh rộng chỉ trong tầm tay – thỏa sức trải nghiệm."
+      ]
+    },
+    {
+      "tag": "xiaomi_1",
+      "patterns": [
+        "Thông tin về Xiaomi 14 (5G) 12GB 256GB",
+        "Xiaomi 14 (5G) 12GB 256GB",
+        "Cho tôi biết thông tin về Xiaomi 14 (5G) 12GB 256GB"
+      ],
+      "responses": [
+        "Xiaomi 14 (5G) 12GB 256GB có giá: 18,390,000đ.\nXiaomi, nhà sản xuất điện thoại hàng đầu của Trung Quốc, tự hào mang đến thị trường những chiếc điện thoại thông minh Android với hiệu suất ấn tượng và các tính năng hàng đầu. Nếu bạn đang tìm kiếm sự độc đáo so với các sản phẩm mới nhất từ Samsung hoặc Apple, thì Xiaomi 14 có thể là lựa chọn phù hợp. Với camera đa năng, màn hình tuyệt vời và cấu hình hàng đầu trong một thiết kế nhỏ gọn, chiếc điện thoại Android này hứa hẹn phù hợp với đa số người dùng.\nMặc dù Xiaomi tập trung vào mẫu Ultra sắp ra mắt của mình, Xiaomi 14 vẫn không kém phần ấn tượng. Với mức giá thân thiện với túi tiền và hiệu suất toàn diện, đây là một lựa chọn đáng xem với hệ điều hành HyperOS được cải tiến của Xiaomi trên nền Android 14. Mặc dù bề ngoài có vẻ giống với Xiaomi 13 năm trước đó, nhưng các cải tiến toàn diện đã giúp Xiaomi 14 trở nên hấp dẫn hơn."
+      ]
+    },
+    {
+      "tag": "xiaomi_2",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi A2 2GB 32GB",
+        "Xiaomi Redmi A2 2GB 32GB",
+        "Cho tôi biết thông tin về Xiaomi Redmi A2 2GB 32GB"
+      ],
+      "responses": [
+        "Xiaomi Redmi A2 2GB 32GB có giá: 1,590,000đ.\nXiaomi Redmi A2 2GB 32GB là một smartphone giá rẻ, ra mắt vào năm 2023, hướng đến người dùng phổ thông.\nThiết bị trang bị màn hình IPS LCD 6.52 inch, độ phân giải HD+, chip MediaTek Helio G36 và dung lượng RAM 2GB kết hợp với bộ nhớ trong 32GB có thể mở rộng qua thẻ nhớ microSD.\nRedmi A2 sở hữu camera sau kép 8MP và camera trước 5MP, pin 5000mAh cho thời gian sử dụng lâu dài, và chạy hệ điều hành Android Go Edition tối ưu cho cấu hình thấp."
+      ]
+    },
+    {
+      "tag": "xiaomi_3",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 13 6GB 128GB",
+        "Xiaomi Redmi Note 13 6GB 128GB",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 13 6GB 128GB"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 13 6GB 128GB có giá: 4,090,000đ.\nRedmi Note 13 tại VTechStore: Điểm Đến Hoàn Hảo cho \"Smartphone Quốc Dân\" 2024\nRedmi Note 13 chính hãng không chỉ là một smartphone mới mẻ trên thị trường mà còn là biểu tượng của sự nâng cấp và đổi mới. Với những cải tiến đáng chú ý, nó hứa hẹn sẽ tiếp tục là lựa chọn hàng đầu cho người dùng. Và VTechStore - địa chỉ bán hàng chính hãng uy tín - là nơi lý tưởng để bạn sở hữu chiếc điện thoại này.\nLý Do Nên Mua Redmi Note 13 tại VTechStore\nSản Phẩm Chính Hãng: Khi mua Redmi Note 13 tại VTechStore, bạn có thể hoàn toàn yên tâm về chất lượng sản phẩm. Mọi sản phẩm tại đây đều là hàng chính hãng Fullbox, có nguồn gốc, xuất xứ rõ ràng.\nBảo Hành và Hậu Mãi Chu Đáo: VTechStore cung cấp chế độ bảo hành chính hãng dài hạn, đảm bảo quyền lợi tốt nhất cho khách hàng."
+      ]
+    },
+    {
+      "tag": "xiaomi_4",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 13 Pro (4G) 8GB 128GB",
+        "Xiaomi Redmi Note 13 Pro (4G) 8GB 128GB",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 13 Pro (4G) 8GB 128GB"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 13 Pro (4G) 8GB 128GB có giá: 5,890,000đ.\nXiaomi Redmi Note 13 Pro (4G) chính hãng - Trọn nét độc bản\nXiaomi tiếp tục tung ra thị trường với dòng Redmi Note 13 Pro (4G) dành cho phân khúc thị trường điện thoại tầm trung. Xiaomi Redmi Note 13 Pro (4G) chính hãng chắc chắn là chiếc điện thoại phù hợp với đa số người dùng nở những gì mà chiếc điện thoại này mang lại. Tại sao, chiếc điện thoại này lại phù hợp với đa số người dùng thì cùng CLICKBUY tìm hiểu qua bài bên dưới.\nTính năng nổi bật ấn tượng\nXiaomi Redmi Note 13 Pro (4G) chính hãng được trang bị bộ vi xử lý MediaTek Helio G99-Ultra với mức giá cực tốt, hứa hẹn đây sẽ là sản phẩm smartphone hàng đầu dành cho phân khúc điện thoại tầm trung. Bên cạnh đó,với phiên bản dung lượng RAM 8GB với dung lượng bộ nhớ trong 128GB như các dòng điện thoại khác, giúp người dùng thoải mái hơn về lựa chọn phiên bản nào phù hợp với nhu cầu sử dụng.\nNgoài ra, Xiaomi Redmi Note 13 Pro (4G) chính hãng còn được trang bị GPU Cortex-A76 có thể hơn 450 nghìn  điểm AnTuTu Benchmark, mang lại một khả năng hoạt động vượt trội để người dùng được trải nghiệm các ứng dụng giải trí hay thao tác nhu cầu sử dụng cơ bản một cách trọn vẹn nhất."
+      ]
+    },
+    {
+      "tag": "xiaomi_5",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 12 Pro 8GB 256GB",
+        "Xiaomi Redmi Note 12 Pro 8GB 256GB",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 12 Pro 8GB 256GB"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 12 Pro 8GB 256GB có giá: 4,990,000đ.\nXiaomi Redmi Note 12 Pro (4G) - CHIẾC SMARTPHONE TẦM TRUNG ĐÁNG ĐƯỢC MONG ĐỢI\n1. Đánh giá chung về Redmi Note 12 Pro 4G\n- Thiết kế\nRedmi Note 12 Pro (4G) được trang bị màn hình LCD IPS 6,67 inch độ phân giải Full HD+. Cho trải nghiệm độ sáng cao kèm theo độ phân giải lớn giúp hiển thị hình ảnh, xem phim, chơi game sắc nét và chi tiết. Bên cạnh đó Xiaomi cũng trang bị cho màn hình này tần số quét lên đến 120Hz giúp trải nghiệm các tác vụ trở nên mượt mà hơn bao giờ hết.  Với thiết kế Camera chính giữa phía trên, mang lại sự cân đối và cảm giác hoàn hảo cho tổng thể của máy. Còn đối với phần mặt lưng, máy được phủ một lớp nhám nhẹ, mang đến cho người dùng cảm giác thoải mái và chắc chắn hơn khi cầm nắm sản phẩm trên tay."
+      ]
+    },
+    {
+      "tag": "xiaomi_6",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 12 Pro (5G) 8GB 128GB Box",
+        "Xiaomi Redmi Note 12 Pro (5G) 8GB 128GB Box",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 12 Pro (5G) 8GB 128GB Box"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 12 Pro (5G) 8GB 128GB Box có giá: 4,490,000đ.\nXiaomi Redmi Note 12 Pro 5G - Smartphone tầm trung ấn tượng\n\nXiaomi Redmi Note 12 Pro 5G là một smartphone mới đến từ nhà Xiaomi, với tính năng ưu việt và mức giá tốt.\n1. Thiết kế và màn hình\nXiaomi Redmi Note 12 Pro có thiết kế hiện đại và sang trọng, với mặt lưng kính cong và khung viền kim loại. Máy có màn hình OLED 6,67 inch độ phân giải cao, độ sáng tốt, mang lại trải nghiệm xem phim và chơi game tuyệt vời. Với 4 phiên bản màu sắc trên Xiaomi Redmi Note 12 Pro lần lượt là: Tím, Xanh, Trắng và Đen. Các màu sắc này phù hợp với đa dạng đối tượng người dùng, từ màu cơ bản đến màu trẻ trung và năng động."
+      ]
+    },
+    {
+      "tag": "xiaomi_7",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 13 Pro (5G) 8GB 128GB Box",
+        "Xiaomi Redmi Note 13 Pro (5G) 8GB 128GB Box",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 13 Pro (5G) 8GB 128GB Box"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 13 Pro (5G) 8GB 128GB Box có giá: 5,290,000đ.\nNgày 21/09, Xiaomi đã tổ chức sự kiện ra mắt dòng sản phẩm mới của họ, Redmi Note 13 Series – một dòng smartphone tầm trung đầy hứa hẹn. Trong loạt sản phẩm này, Redmi Note 13 Pro đã để lại ấn tượng sâu sắc với sự kết hợp hoàn hảo giữa hiệu năng và tính năng đột phá, đặc biệt là trong lĩnh vực nhiếp ảnh. Vậy, điều gì đã làm cho Redmi Note 13 Pro trở nên đặc biệt? Hãy cùng khám phá chi tiết về cấu hình và giá cả của sản phẩm này để hiểu rõ hơn về sản phẩm này!.\nLý Do Nên Lựa Chọn Redmi Note 13 Pro Tại VTechStore\n\nĐảm Bảo Chính Hãng: Một trong những lợi ích lớn nhất khi mua Redmi Note 13 Pro tại VTechStore là sự bảo đảm về nguồn gốc của sản phẩm. Tất cả các sản phẩm tại VTechStore cam kết là hàng nguyên Seal bản thương mại, không phải bản demo, đi kèm với đầy đủ bảo hành mặc định 15 tháng, lỗi là đổi trong 15 ngày và cam kết về chất lượng từ nhà sản xuất. Điều này mang lại sự yên tâm cho bạn, không phải lo lắng về việc mua phải hàng giả hoặc hàng nhái."
+      ]
+    },
+    {
+      "tag": "xiaomi_8",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 13 Pro Plus (5G) 12GB 256GB Box",
+        "Xiaomi Redmi Note 13 Pro Plus (5G) 12GB 256GB Box",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 13 Pro Plus (5G) 12GB 256GB Box"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 13 Pro Plus (5G) 12GB 256GB Box có giá: 6,890,000đ.\nNgày 21/09, Xiaomi đã tổ chức sự kiện ra mắt dòng sản phẩm mới của họ, Redmi Note 13 Series – một dòng smartphone tầm trung đầy hứa hẹn. Trong loạt sản phẩm này, Redmi Note 13 Pro Plus đã để lại ấn tượng sâu sắc với sự kết hợp hoàn hảo giữa hiệu năng và tính năng đột phá, đặc biệt là trong lĩnh vực nhiếp ảnh. Vậy, điều gì đã làm cho Redmi Note 13 Pro Plus trở nên đặc biệt? Hãy cùng khám phá chi tiết về cấu hình và giá cả của sản phẩm này để hiểu rõ hơn về sản phẩm này!\nLý Do Nên Lựa Chọn Redmi Note 13 Pro Plus Tại VTechStore:\n\nĐảm Bảo Chính Hãng: Một trong những lợi ích lớn nhất khi mua Redmi Note 13 Pro Plus tại VTechStore là sự bảo đảm về nguồn gốc của sản phẩm. Tất cả các sản phẩm tại VTechStore cam kết là hàng nguyên Seal bản thương mại, không phải bản demo, đi kèm với đầy đủ bảo hành mặc định 15 tháng, lỗi là đổi trong 15 ngày và cam kết về chất lượng từ nhà sản xuất. Điều này mang lại sự yên tâm cho bạn, không phải lo lắng về việc mua phải hàng giả hoặc hàng nhái.\nDịch Vụ Khách Hàng Xuất Sắc: VTechStore được biết đến với dịch vụ khách hàng tận tình và chuyên nghiệp."
+      ]
+    },
+    {
+      "tag": "xiaomi_9",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 13 Pro (5G) 12GB 256GB Box",
+        "Xiaomi Redmi Note 13 Pro (5G) 12GB 256GB Box",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 13 Pro (5G) 12GB 256GB Box"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 13 Pro (5G) 12GB 256GB Box có giá: 5,990,000đ.\nNgày 21/09, Xiaomi đã tổ chức sự kiện ra mắt dòng sản phẩm mới của họ, Redmi Note 13 Series – một dòng smartphone tầm trung đầy hứa hẹn. Trong loạt sản phẩm này, Redmi Note 13 Pro đã để lại ấn tượng sâu sắc với sự kết hợp hoàn hảo giữa hiệu năng và tính năng đột phá, đặc biệt là trong lĩnh vực nhiếp ảnh. Vậy, điều gì đã làm cho Redmi Note 13 Pro trở nên đặc biệt? Hãy cùng khám phá chi tiết về cấu hình và giá cả của sản phẩm này để hiểu rõ hơn về sản phẩm này!.\n \n\n\n\nThông số kỹ thuật\nChi tiết\n\n\n\n\nMàn hình\n6.67 inch OLED, độ phân giải 1.5K, tần số quét 120 Hz\n\n\nHiệu năng\nChip Snapdragon 7s Gen 2, RAM 8 GB / 12 GB / 16 GB, Bộ nhớ trong 128 GB / 256 GB / 512 GB\n\n\nPin và Sạc\nPin 5."
+      ]
+    },
+    {
+      "tag": "xiaomi_10",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 13 Pro (5G) 8GB 256GB Box",
+        "Xiaomi Redmi Note 13 Pro (5G) 8GB 256GB Box",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 13 Pro (5G) 8GB 256GB Box"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 13 Pro (5G) 8GB 256GB Box có giá: 5,690,000đ.\nNgày 21/09, Xiaomi đã tổ chức sự kiện ra mắt dòng sản phẩm mới của họ, Redmi Note 13 Series – một dòng smartphone tầm trung đầy hứa hẹn. Trong loạt sản phẩm này, Redmi Note 13 Pro đã để lại ấn tượng sâu sắc với sự kết hợp hoàn hảo giữa hiệu năng và tính năng đột phá, đặc biệt là trong lĩnh vực nhiếp ảnh. Vậy, điều gì đã làm cho Redmi Note 13 Pro trở nên đặc biệt? Hãy cùng khám phá chi tiết về cấu hình và giá cả của sản phẩm này để hiểu rõ hơn về sản phẩm này!.\n \n\n\n\nThông số kỹ thuật\nChi tiết\n\n\n\n\nMàn hình\n6.67 inch OLED, độ phân giải 1.5K, tần số quét 120 Hz\n\n\nHiệu năng\nChip Snapdragon 7s Gen 2, RAM 8 GB / 12 GB / 16 GB, Bộ nhớ trong 128 GB / 256 GB / 512 GB\n\n\nPin và Sạc\nPin 5."
+      ]
+    },
+    {
+      "tag": "xiaomi_11",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 13 Pro Plus (5G) 12GB 512GB Box",
+        "Xiaomi Redmi Note 13 Pro Plus (5G) 12GB 512GB Box",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 13 Pro Plus (5G) 12GB 512GB Box"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 13 Pro Plus (5G) 12GB 512GB Box có giá: 7,190,000đ.\nXiaomi Redmi Note 13 Pro Plus (5G) 12GB 512GB là một smartphone cao cấp, ra mắt vào năm 2023.\nMáy sở hữu màn hình AMOLED 6.67 inch với độ phân giải Full HD+ và tần số quét 120Hz.\nĐược trang bị chip MediaTek Dimensity 9200+ mạnh mẽ, cùng với RAM 12GB và bộ nhớ trong 512GB.\nCamera sau ba ống kính 200MP + 8MP + 2MP và camera trước 16MP cho khả năng chụp ảnh vượt trội.\nPin dung lượng 5000mAh hỗ trợ sạc nhanh 120W, và chạy hệ điều hành MIUI dựa trên Android 13.\n"
+      ]
+    },
+    {
+      "tag": "xiaomi_12",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 12 4GB 128GB",
+        "Xiaomi Redmi Note 12 4GB 128GB",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 12 4GB 128GB"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 12 4GB 128GB có giá: 3,490,000đ.\nXiaomi Redmi Note 12 – Thiết kế trẻ trung hiệu năng mạnh mẽ\nDòng sản phẩm Redmi Note của Xiaomi được quan tâm bởi mức giá rẻ và bộ vi xử lý mạnh mẽ hơn hẳn những sản phẩm trong cùng tầm giá.\n1. Đánh giá chung về Redmi Note 12\nRedmi Note 12 thiết kế trẻ trung năng động. Về thiết kế, Redmi Note 12 mang trên mình thiết kế phong cách chuẩn gen Z với nhiều gam màu trẻ trung, năng động như Black, Blue, Green. Một điểm nổi bật về thiết kế là cụm camera ở mặt sau được làm nổi cụm lên so với mặt lưng và có lớp kính phủ ở trên, tạo cảm giác mới lạ so với mặt lưng nhám mờ  Redmi Note 12 được trang bị màn hình lớn lên đến 6.7 inch phía trước với camera selfie đục lỗ ở giữa màn hình."
+      ]
+    },
+    {
+      "tag": "xiaomi_13",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 12 Turbo 12GB 256GB Box",
+        "Xiaomi Redmi Note 12 Turbo 12GB 256GB Box",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 12 Turbo 12GB 256GB Box"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 12 Turbo 12GB 256GB Box có giá: 5,990,000đ.\nXiaomi Redmi Note 12 Turbo - Kẻ đứng đầu trong phân khúc tầm trung\n Xiaomi Redmi Note 12 Turbo được trình làng trong thời gian vừa qua, sản phẩm đã tạo ra một cơn sốt cho phân khúc Smartphone tầm trung nhưng được trang bị hầu hết tất cả công nghệ hiện đại và mạnh mẽ nhất. Sau đây, Hệ thống Bán lẻ Smartphone VTechStore sẽ đi sâu vào đánh giá xem sản phẩm có những điểm vượt trội như thế nào\n1. Thiết kế và màn hình của Xiaomi Redmi Note 12 Turbo\nMáy được nhà Xiaomi thiết kế theo phong cách hiện đại với khung viền kim loại và mặt lưng bằng nhựa chắc chắn. Màn hình 6,67 inch hiển thị rực rỡ, độ phân giải cao và màu sắc sắc nét. Thiết kế viền mỏng giúp tăng cường trải nghiệm xem phim và chơi game. \n2."
+      ]
+    },
+    {
+      "tag": "xiaomi_14",
+      "patterns": [
+        "Thông tin về Xiaomi 13 (5G) 12GB 256GB Box",
+        "Xiaomi 13 (5G) 12GB 256GB Box",
+        "Cho tôi biết thông tin về Xiaomi 13 (5G) 12GB 256GB Box"
+      ],
+      "responses": [
+        "Xiaomi 13 (5G) 12GB 256GB Box có giá: 11,990,000đ.\nXiaomi 13 - Thiết kế đẳng cấp, hiệu năng ấn tượng\nThiết kế vuông vức, đẳng cấp, sang trọng\nKhông còn mặt lưng hay màn hình cong tràn như thế hệ tiền nhiệm, Xiaomi 13 giờ đây cũng đã được thiết kế với kiểu dáng vuông vức. Cùng với đó là những loại chất liệu cao cấp, điều này giúp máy có được cái nhìn thêm phần đắt giá. Đối với phần mặt lưng, Xiaomi sử dụng hầu hết là vật liệu kính và được hoàn thiện một cách nhẵn bóng. Cách thiết kế này tạo cho mình cảm giác sang trọng hơn, thích thú hơn mỗi khi mặt lưng bóng nhoáng này phản chiếu ánh sáng ở ngoài trời.   \nXiaomi 13 sở hữu màn hình siêu đẹp, độ sáng cực cao\nKhác với các mẫu máy tiền nhiệm, chiếc điện thoại Xiaomi 13 có màn hình 6.36 inch lớn hơn, với tấm nền OLED kết hợp với các công nghệ hỗ trợ hiển thị cao cấp giúp khả năng tái tạo hình ảnh vô cùng trung thực và sống động."
+      ]
+    },
+    {
+      "tag": "xiaomi_15",
+      "patterns": [
+        "Thông tin về Xiaomi PoCo M5 4GB 64GB",
+        "Xiaomi PoCo M5 4GB 64GB",
+        "Cho tôi biết thông tin về Xiaomi PoCo M5 4GB 64GB"
+      ],
+      "responses": [
+        "Xiaomi PoCo M5 4GB 64GB có giá: 2,690,000đ.\nXIAOMI POCO M5 - Chiếc SmartPhone Giá Rẻ Nhưng Không Thể Xem Thường\nBộ vi xử lý Helio G99 đầy mạnh mẽ của Poco M5\nXiaomi Poco M5 được trang bị bộ vi xử lý MediaTek Helio G99 8 lõi với tiến trình 6 nm của TSMC, cùng cấu ​​trúc CPU hàng đầu, chắc chắn mang lại trải nghiệm vượt trội đến cho người dùng so với các sản phẩm cùng phân khúc.  Ngoài ra, máy còn được trang bị RAM 4GB và bộ nhớ trong 64GB mắc định, tối ưu để hoạt động ở tốc độ cao, cho trải nghiệm sử dụng thêm nhanh và mượt hơn. Sẵn sàng cùng hệ điều hành Android 12 (vẫn được update sau này), cùng giao diện MIUI 13 thân thiện, dễ sử dụng.\nMàn hình Full HD+ hỗ trợ tần số quét 90Hz mượt mà\nXiaomi trang bị cho chiếc điện thoại này màn hình kích thước 6.58 inch, đi kèm với đó là độ phân giải Full HD+ (2408 x 1080) cho khả năng hiển thị hình ảnh sắc nét đến từng chi tiết. Màu sắc sống động và chân thực, tỷ lệ khung hình 20:9 để bạn thưởng thức phim ảnh thêm trọn vẹn."
+      ]
+    },
+    {
+      "tag": "xiaomi_16",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 12S 8GB 256GB",
+        "Xiaomi Redmi Note 12S 8GB 256GB",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 12S 8GB 256GB"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 12S 8GB 256GB có giá: 4,590,000đ.\nXiaomi Redmi Note 12S - Thông số kỹ thuật vượt trội, thiết kế đơn giản mà tinh tế\n1. Đánh giá chung về Redmi Note 12S\n- Thông số kỹ thuật vượt trội, thiết kế đơn giản\nXiaomi Redmi Note 12S là chiếc điện thoại được nâng cấp từ phiên bản Xiaomi Redmi Note 12. Chiếc máy này mang thông số ổn định, phù hợp với đại đa số người dùng.  Người tiền nhiệm Redmi Note 11S trước đây được xem là sản phẩm quốc dân, vì có sự vượt trội so với nhiều Smartphone khác trong cùng phân khúc.\n- Thiết kế và màu sắc trẻ trung \nMặc dù Xiaomi Redmi Note 12S không có quá nhiều thay đổi về mặt thiết kế, cụm Camera vẫn được thiết kế phân chia ống kính chính và những cảm biến phụ. Phần khung viền làm từ chất liệu nhựa, mặt lưng được bảo vệ toàn diện bởi kính Gorilla Glass 5 và thiết kế nguyên khối mang lại cảm giác cầm nắm chắc chắn."
+      ]
+    },
+    {
+      "tag": "xiaomi_17",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 12 Turbo 16GB 256GB Box",
+        "Xiaomi Redmi Note 12 Turbo 16GB 256GB Box",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 12 Turbo 16GB 256GB Box"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 12 Turbo 16GB 256GB Box có giá: 6,190,000đ.\nXiaomi Redmi Note 12 Turbo - Kẻ đứng đầu trong phân khúc tầm trung\n Xiaomi Redmi Note 12 Turbo được trình làng trong thời gian vừa qua, sản phẩm đã tạo ra một cơn sốt cho phân khúc Smartphone tầm trung nhưng được trang bị hầu hết tất cả công nghệ hiện đại và mạnh mẽ nhất. Sau đây, Hệ thống Bán lẻ Smartphone VTechStore sẽ đi sâu vào đánh giá xem sản phẩm có những điểm vượt trội như thế nào\n1. Thiết kế và màn hình của Xiaomi Redmi Note 12 Turbo\nMáy được nhà Xiaomi thiết kế theo phong cách hiện đại với khung viền kim loại và mặt lưng bằng nhựa chắc chắn. Màn hình 6,67 inch hiển thị rực rỡ, độ phân giải cao và màu sắc sắc nét. Thiết kế viền mỏng giúp tăng cường trải nghiệm xem phim và chơi game. \n2."
+      ]
+    },
+    {
+      "tag": "xiaomi_18",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 12 (5G) 8GB 128GB Box",
+        "Xiaomi Redmi Note 12 (5G) 8GB 128GB Box",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 12 (5G) 8GB 128GB Box"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 12 (5G) 8GB 128GB Box có giá: 4,150,000đ.\nXIAOMI REDMI NOTE 12 5G - Smartphone có thiết kế đẹp và thông số kỹ thuật ấn tượng\nĐánh giá Xiaomi Redmi Note 12\n\nMàn hình\n\nRedmi Note 12 - một siêu phẩm giá rẻ, sử dụng tấm nền Samsung GOLED độ nét cao, với độ tương phản 4500000:1, mang đến chất lượng hình ảnh siêu cao.  Redmi Note 12 hỗ trợ ba mức cài đặt: 60Hz, 90Hz và 120Hz, mang lại tiện ích cho người dùng. Tốc độ cảm ứng lên đến 240Hz giúp trải nghiệm vuốt chạm mượt mà hơn. Đồng thời, màn hình này còn tích hợp chế độ bảo vệ mắt, mang lại sự an tâm cho người dùng khi sử dụng lâu dài mà không lo mỏi mắt.\n\nChip và GPU mạnh mẽ\n\nXiaomi Note 12 trang bị bên trong bộ xử lý Snapdragon 4 Gen 1 - chip đầu 4 mới nhất. Bộ xử lý này hỗ trợ 8 nhân CPU xung nhịp lên tới 2."
+      ]
+    },
+    {
+      "tag": "xiaomi_19",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi K70 Pro 12GB 256GB Box",
+        "Xiaomi Redmi K70 Pro 12GB 256GB Box",
+        "Cho tôi biết thông tin về Xiaomi Redmi K70 Pro 12GB 256GB Box"
+      ],
+      "responses": [
+        "Xiaomi Redmi K70 Pro 12GB 256GB Box có giá: 11,390,000đ.\nXiaomi Redmi K70 Pro 12GB 256GB là một smartphone cao cấp, ra mắt vào năm 2023.\nMáy sở hữu màn hình AMOLED 6.67 inch với độ phân giải QHD+ và tần số quét 120Hz.\nĐược trang bị chip Snapdragon 8 Gen 3 mạnh mẽ, cùng với RAM 12GB và bộ nhớ trong 256GB.\nCamera sau ba ống kính 108MP + 12MP + 5MP và camera trước 32MP cho khả năng chụp ảnh ấn tượng.\nPin dung lượng 5200mAh hỗ trợ sạc nhanh 100W, và chạy hệ điều hành MIUI dựa trên Android 13.\n"
+      ]
+    },
+    {
+      "tag": "xiaomi_20",
+      "patterns": [
+        "Thông tin về Xiaomi Redmi Note 12 (5G) 6GB 128GB Box",
+        "Xiaomi Redmi Note 12 (5G) 6GB 128GB Box",
+        "Cho tôi biết thông tin về Xiaomi Redmi Note 12 (5G) 6GB 128GB Box"
+      ],
+      "responses": [
+        "Xiaomi Redmi Note 12 (5G) 6GB 128GB Box có giá: 3,890,000đ.\nXIAOMI REDMI NOTE 12 5G - Smartphone có thiết kế đẹp và thông số kỹ thuật ấn tượng\nMàn hình hiển thị sắc nét\nRedmi Note 12 - một siêu phẩm giá rẻ, sử dụng tấm nền Samsung GOLED độ nét cao, với độ tương phản 4500000:1, mang đến chất lượng hình ảnh siêu cao.  Redmi Note 12 hỗ trợ ba mức cài đặt: 60Hz, 90Hz và 120Hz, mang lại tiện ích cho người dùng. Tốc độ cảm ứng lên đến 240Hz giúp trải nghiệm vuốt chạm mượt mà hơn. Đồng thời, màn hình này còn tích hợp chế độ bảo vệ mắt, mang lại sự an tâm cho người dùng khi sử dụng lâu dài mà không lo mỏi mắt.\nChip và GPU mạnh mẽ\nMáy trang bị bên trong bộ xử lý Snapdragon 4 Gen 1 - chip đầu 4 mới nhất. Bộ xử lý này hỗ trợ 8 nhân CPU xung nhịp lên tới 2."
+      ]
+    }
+  ]
+}

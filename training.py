@@ -5,22 +5,25 @@
 
 
 import nltk
+nltk.download('punkt')
 from nltk.stem.lancaster import LancasterStemmer
-from pyvi.pyvi import ViTokenizer
+# from pyvi.pyvi import ViTokenizer
 
 stemmer = LancasterStemmer()
 
 import numpy as np
 import tflearn
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import random
+import warnings
+warnings.filterwarnings("ignore")
 
 
 # In[2]:
 
 
 import json
-with open('data/intents.json') as json_data:
+with open('D:/MonHocKy7/PL6/chatbot-demo-test/data/intents_test.json', encoding='utf-8') as json_data:
     intents = json.load(json_data)
 
 
@@ -90,30 +93,41 @@ print (len(words), "unique stemmed words", words)
 # In[4]:
 
 
-#Create training data
-training = []
-output = []
-
+# Khởi tạo danh sách training_data
+training_data = []
 output_empty = [0] * len(classes)
 
+# Vòng lặp qua các documents để tạo dữ liệu huấn luyện
 for doc in documents:
     bag = []
     pattern_words = doc[0]
     pattern_words = [stemmer.stem(word.lower()) for word in pattern_words]
 
+    # Tạo mảng bag
     for w in words:
         bag.append(1) if w in pattern_words else bag.append(0)
 
     output_row = list(output_empty)
     output_row[classes.index(doc[1])] = 1
 
-    training.append([bag, output_row])
+    # Thêm mảng bag và mảng output_row vào training_data
+    training_data.append([bag, output_row])
 
-random.shuffle(training)
-training = np.array(training)
+# Trộn ngẫu nhiên dữ liệu huấn luyện
+random.shuffle(training_data)
 
-train_x = list(training[:,0])
-train_y = list(training[:,1])
+# Tạo mảng NumPy cho dữ liệu huấn luyện
+train_x = []
+train_y = []
+
+for item in training_data:
+    train_x.append(item[0])
+    train_y.append(item[1])
+
+# Chuyển danh sách thành mảng NumPy
+train_x = np.array(train_x)
+train_y = np.array(train_y)
+
 
 
 # In[5]:
@@ -126,6 +140,7 @@ print(train_y[1])
 # In[6]:
 
 
+# tf.reset_default_graph()
 tf.reset_default_graph()
 
 net = tflearn.input_data(shape=[None, len(train_x[0])])
@@ -133,6 +148,7 @@ net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, len(train_y[0]), activation='softmax')
 net = tflearn.regression(net, optimizer='adam', loss='categorical_crossentropy')
+# net = tflearn.regression(net, optimizer=tf.compat.v1.train.AdamOptimizer(), loss='sparse_categorical_crossentropy')
 
 model = tflearn.DNN(net, tensorboard_dir='tflearn_logs')
 

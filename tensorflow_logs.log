@@ -1,0 +1,615 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:06:01] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:06:03] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:06:04] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:06:04] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:06:05] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:06:05] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:06:06] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:06:16] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:06:26] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:11:24] "[35m[1mPOST /chatbot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:11:30] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:12:25] "[35m[1mPOST /chatbot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:13:40] "[35m[1mPOST /chatbot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:14:15] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:16:12] "[35m[1mPOST /chatbot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:18:06] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:21:51] "[35m[1mPOST /chatbot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:21:54] "[35m[1mPOST /chatbot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:23:13] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:23:13] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:23:16] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:23:19] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:43:58] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:44:10] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:44:17] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:44:24] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:44:32] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:51:44] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:51:44] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:53:18] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:55:00] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:55:08] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:55:11] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:55:48] "[35m[1mPOST /chatbot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:56:05] "[35m[1mPOST /chatbot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 16:59:51] "[35m[1mPOST /chatbot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:00:12] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:00:42] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:02:41] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:03:09] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\testt.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\predict.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\testt.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\testt.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\predict.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\predict.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\testt.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:12:09] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:12:24] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:12:30] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:12:45] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:12:59] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:12:59] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:13:10] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:15:35] "[35m[1mPOST /chatbot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:15:59] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:16:40] "[35m[1mPOST /chatbot HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:17:12] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:18:51] "[31m[1mGET /chatbot HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:18:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:20:27] "[31m[1mGET /chatbot HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:20:29] "[31m[1mGET /chatbot HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:20:31] "[31m[1mGET /chatbot HTTP/1.1[0m" 405 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:21:15] "[31m[1mGET /chatbot HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:21:18] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:21:21] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:21:23] "[31m[1mGET /chatbot HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:6000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:23:21] "[31m[1mGET /chatbot HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:23:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:23:24] "[31m[1mGET /chatbot HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:23:25] "[31m[1mGET /chatbot HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:23:59] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:23:59] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:24:15] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:24:33] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:27:37] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:27:37] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:27:40] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:27:58] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Admin\\Desktop\\ChatBot-test\\chatbot-demo-test\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:28:37] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:28:37] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:28:37] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:28:37] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:28:38] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:28:38] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:28:38] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:28:38] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:28:46] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:28:46] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:28:54] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:28:54] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:29:09] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:29:09] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:29:15] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Apr/2024 17:29:16] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:15:32] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:15:33] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:15:39] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:15:39] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:15:48] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:15:48] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:20:22] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:20:22] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:22:21] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:22:21] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:23:12] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:23:12] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:23:24] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:23:25] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:35:20] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:35:21] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:37:13] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:37:13] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:40:10] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:40:11] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:40:18] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:40:18] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:41:22] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:41:22] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:42:59] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 11:42:59] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:05:07] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:05:07] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:06:25] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:06:26] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:08:38] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:08:38] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:22:11] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:22:12] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:24:09] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:24:09] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:24:15] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:24:16] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:25:46] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:25:46] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:26:01] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:26:01] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:27:27] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:27:27] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:27:31] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:28:57] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:28:57] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:31:18] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:31:18] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:31:23] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:32:55] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:32:55] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:35:56] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:35:56] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 13:36:01] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:00:38] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:00:38] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:01:40] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:01:40] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:01:53] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:01:53] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:02:05] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:02:06] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:04:36] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:04:36] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:06:01] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:06:01] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:08:00] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:08:00] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:08:05] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:08:06] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:08:24] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:08:25] "[35m[1mPOST /chatbot HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:08:48] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:08:48] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:10:37] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:10:37] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:12:01] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:12:01] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:17:45] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:17:45] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:20:11] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:20:11] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:37:21] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Apr/2024 14:37:21] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:13:50] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:13:50] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:13:57] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:13:57] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:14:02] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:14:02] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:14:14] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:14:14] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:24:14] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:24:14] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:24:23] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:24:23] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:31:02] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:31:03] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:32:46] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:32:46] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:36:06] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:36:06] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:39:52] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:39:52] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:43:45] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:43:46] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:54:54] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 13:54:54] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:10:16] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:10:17] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:11:13] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:11:13] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:11:39] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:11:39] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:12:38] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:12:38] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:13:51] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:13:52] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:13:59] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:13:59] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:18:31] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:18:32] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:20:56] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:20:56] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:21:25] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:21:25] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:21:39] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:21:39] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:45:43] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Apr/2024 15:45:43] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:46:02] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:46:02] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:50:05] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:50:06] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:55:18] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:55:18] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:57:51] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:57:51] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:32:56] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:32:56] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 16:40:53] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 16:40:53] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 09:49:07] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 09:49:08] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:05:23] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:05:24] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:41:11] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:41:12] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:41:19] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:41:19] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:53:29] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:53:29] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:53:32] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:53:37] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:53:37] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:53:43] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:53:43] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:03:48] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:03:48] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:04:12] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:04:12] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:04:23] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:04:24] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:05:24] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:05:24] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:05:56] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:05:57] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:06:21] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:06:22] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:06:36] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:06:36] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:07:11] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:07:11] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:31:55] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:31:55] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:31:56] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:32:13] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:32:13] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:32:30] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:32:30] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:33:25] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:33:25] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:34:07] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:34:07] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:34:41] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:34:41] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:34:49] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 15:34:50] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 123-304-222
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 16:17:39] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 16:17:39] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 16:18:23] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 16:18:23] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 16:18:42] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 16:18:42] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 16:19:21] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 16:19:21] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 16:19:57] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 16:19:58] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 16:20:05] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 16:20:06] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-309-078
+INFO:werkzeug:127.0.0.1 - - [04/May/2024 14:59:49] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2024 14:59:50] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2024 15:00:48] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2024 15:00:49] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2024 15:04:18] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/May/2024 15:04:18] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-309-078
+INFO:werkzeug:127.0.0.1 - - [23/May/2024 09:40:34] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2024 09:40:35] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2024 09:41:18] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2024 09:41:19] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2024 09:42:43] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2024 09:42:43] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2024 09:43:54] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/May/2024 09:43:54] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-309-078
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:24:22] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:24:23] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:24:38] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:24:39] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:24:55] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:24:55] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:25:32] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:25:32] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:25:40] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:25:40] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:25:51] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:25:51] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:26:01] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:26:02] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:26:09] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:26:09] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:27:07] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/May/2024 15:27:07] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-309-078
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2024 23:21:46] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2024 23:21:46] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2024 23:21:55] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2024 23:21:55] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2024 23:37:32] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2024 23:37:32] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2024 23:37:38] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2024 23:37:39] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2024 23:37:47] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2024 23:37:47] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-309-078
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2024 11:43:35] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2024 11:43:36] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2024 11:43:48] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2024 11:43:48] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2024 13:34:06] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2024 13:34:06] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-309-078
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2024 14:05:19] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2024 14:05:20] "POST /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2024 14:05:26] "OPTIONS /chatbot HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2024 14:05:27] "POST /chatbot HTTP/1.1" 200 -

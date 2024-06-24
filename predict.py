@@ -3,6 +3,14 @@
 
 # In[1]:
 
+import warnings
+warnings.filterwarnings("ignore")
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+import logging
+# Thiết lập mức độ của logger
+logging.basicConfig(filename='tensorflow_logs.log', level=logging.ERROR)
+
 
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
@@ -10,8 +18,10 @@ stemmer = LancasterStemmer()
 
 import numpy as np
 import tflearn
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import random
+
+
 
 
 # In[2]:
@@ -25,7 +35,7 @@ train_x = data['train_x']
 train_y = data['train_y']
 
 import json
-with open('data/intents.json') as json_data:
+with open('D:/MonHocKy7/PL6/chatbot-demo-test/data/intents_test.json', encoding='utf-8') as json_data:
     intents = json.load(json_data)
 
 
@@ -68,7 +78,7 @@ def bow(sentence, words, show_details=False):
 # In[5]:
 
 
-bow('I want to special food', words)
+# bow('I want to special food', words)
 
 
 # In[6]:
@@ -94,6 +104,21 @@ def classify(sentence):
         return_list.append((classes[r[0]], r[1]))
     return return_list
 
+# def response(sentence, userID='1', show_details=False):
+#     results = classify(sentence)
+#     if results:
+#         while results:
+#             for i in intents['intents']:
+#                 if i['tag'] == results[0][0]:
+#                     if 'context_set' in i:
+#                         if show_details: print ('context:', i['context_set'])
+#                         context[userID] = i['context_set']
+#                     if not 'context_filter' in i or                         (userID in context and 'context_filter' in i and i['context_filter'] == context[userID]):
+#                         if show_details: print ('tag:', i['tag'])
+#                         return print(random.choice(i['responses']))
+
+#             results.pop(0)
+
 def response(sentence, userID='1', show_details=False):
     results = classify(sentence)
     if results:
@@ -105,8 +130,8 @@ def response(sentence, userID='1', show_details=False):
                         context[userID] = i['context_set']
                     if not 'context_filter' in i or                         (userID in context and 'context_filter' in i and i['context_filter'] == context[userID]):
                         if show_details: print ('tag:', i['tag'])
-                        return print(random.choice(i['responses']))
+                        return random.choice(i['responses'])
 
             results.pop(0)
 
-
+# response("Cảm ơn")

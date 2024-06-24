@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/hoang.thi.nhung/workspace/machineLearning/Untitled Folder/models/model.tflearn"
-all_model_checkpoint_paths: "/home/hoang.thi.nhung/workspace/machineLearning/Untitled Folder/models/model.tflearn"
+model_checkpoint_path: "D:\\MonHocKy7\\PL6\\chatbot-demo-test\\models\\model.tflearn"
+all_model_checkpoint_paths: "D:\\MonHocKy7\\PL6\\chatbot-demo-test\\models\\model.tflearn"
